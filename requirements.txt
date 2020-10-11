@@ -8,4 +8,4 @@ pillow==6.1.0
 PyQt5==5.13.0 
 matplotlib==3.0.3
 Keras==2.2.5
-tensorflow==1.14.0
+tensorflow==1.15.4
