@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# ffmpeg -re -stream_loop -1 -i traffic.flv -c copy -f flv rtmp://kevinnan.org.cn/live/livestream
+# ffmpeg -re -stream_loop -1 -i traffic.flv -c copy -f flv rtmp://101.132.236.124/live/livestream
 import socket
 import pickle
 import json
@@ -28,7 +28,7 @@ class ServerAchieve:
 		self.server_tcp_thread = threading.Thread(target=self.connectClient, daemon=True)
 		self.server_tcp_thread.start()
 
-		self.cap = cv2.VideoCapture("rtmp://kevinnan.org.cn/live/livestream")
+		self.cap = cv2.VideoCapture("rtmp://101.132.236.124/live/livestream")
 		print("cap init is completed")
 
 
@@ -131,7 +131,7 @@ class ServerAchieve:
 
 	def dealVideo(self):
 		# 只有客户端选择check box时，才可以进行推流．（在进入这个函数之前）
-		rtmpUrl = "rtmp://kevinnan.org.cn/live/stream"
+		rtmpUrl = "rtmp://101.132.236.124/live/stream"
 
 		# Get video information
 		fps = int(self.cap.get(cv2.CAP_PROP_FPS))

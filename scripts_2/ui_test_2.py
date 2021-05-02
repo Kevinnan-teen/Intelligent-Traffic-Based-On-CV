@@ -175,7 +175,7 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 			# 目标检测
 			if self.target_detect.isChecked():
 				current_state = 1
-				self.rtmp_deal_address = "rtmp://kevinnan.org.cn/live/stream"
+				self.rtmp_deal_address = "rtmp://101.132.236.124/live/stream"
 
 				# 交通灯检测
 				if self.traffic_light_detect.isChecked():
@@ -312,7 +312,7 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 		# "rtmp://kevinnan.org.cn/live/livestream"
 		# "rtmp://kevinnan.org.cn/live/stream"
 
-		while self.rtmp_deal_address[:22] != "rtmp://kevinnan.org.cn":
+		while self.rtmp_deal_address[:4] != "rtmp":
 			# print(self.rtmp_deal_address[:22])
 			time.sleep(0.5)
 
