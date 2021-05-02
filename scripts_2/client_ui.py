@@ -1,5 +1,6 @@
 # -*- coding:utf-8 -*-
-from core import Ui_MainWindow
+from main_window import Ui_MainWindow
+from sub_window import App
 
 import sys
 sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
@@ -19,10 +20,22 @@ import json
 
 
 
+class message(QThread):
+    signal = pyqtSignal()
+    def __init__(self, Window):
+        super(message, self).__init__()
+        self.window = Window
+ 
+    def run(self):
+        self.signal.emit()
+
 
 class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 
 	logQueue = multiprocessing.Queue()		# 多进程队列，用于多进程之间传输数据
+
+	subWinSignal = pyqtSignal(str)
+
 	receiveLogSignal = pyqtSignal(str)
 
 	def __init__(self):
@@ -36,70 +49,117 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 							  'license_plate_detect_is_open':False}
 
 
+
+		self.rtmp_deal_address = ''
+
+		# pyqt子线程中不能使用QmessageBox，使用信号与槽
+		self.message = message(self)
+		self.message.signal.connect(self.connectBox)
+		
+		# 窗口居中
 		self.center()
+		# 刷新视频流
 		self.openFIleButton.clicked.connect(self.open_video)
+	
+		# 关闭视频
 		self.closeFileButton.clicked.connect(self.close_video)
+
+		# 获取rtmp流地址
+		self.lineEdit.editingFinished.connect(self.rtmpTextchanged)
+		self.rtmp_address = ''
+		# 获取ip地址
+		self.lineEdit_2.editingFinished.connect(self.ipAddressChanged)
+		self.ip_address = ''
+		# 获取端口地址
+		self.lineEdit_3.editingFinished.connect(self.portChanged)
+		self.port_address = ''
 
 		# 创建一个关闭事件并设为未触发
 		self.stopEvent = threading.Event()		
 		self.stopEvent.clear()
 
-
-		# 加载模型
-		self.load_models.clicked.connect(self.load_model)
+		# 子窗口和父窗口通信
+		self.sub_win = App()
+		# 可视化数据
+		self.lookVisualDataButton.clicked.connect(self.visualizeData)
+		self.sub_data = ''
+		self.subWinSignal.connect(lambda log2: self.sub_win.getData(log2))
+		self.subWinThread = threading.Thread(target=self.subWinFunc, daemon=True)
+		self.subWinThread.start()		
 
 		# 加载日志
 		self.receiveLogSignal.connect(lambda log: self.logOutput(log))
 		self.logOutputThread = threading.Thread(target=self.receiveLog, daemon=True)
 		self.logOutputThread.start()
 
-		#　调节帧率
-		self.changeFrameSlider.valueChanged.connect(self.frameChange)
-		self.frameInterval = self.changeFrameSlider.value()
+		self.pushButton.clicked.connect(self.clickConnect)
 
+	
+	def connectBox(self):
+	        load_completed = QMessageBox.information(self, 'message', '成功连接到服务器', QMessageBox.Ok)
+
+
+	def clickConnect(self):
 		self.client_tcp_thread = threading.Thread(target=self.connectServer, daemon=True)
 		self.client_tcp_thread.start()
 
 
+	def visualizeData(self):
+		self.sub_win.show()
+
+	def subWinFunc(self):
+		while True:
+			time.sleep(0.2)			
+			if self.sub_data != '':
+				self.subWinSignal.emit(self.sub_data)
+
+	def rtmpTextchanged(self):
+		self.rtmp_address = str(self.lineEdit.text())
+		self.rtmp_deal_address = self.rtmp_address
+		print(self.lineEdit.text())
+
+
+	def ipAddressChanged(self):
+		self.ip_address = self.lineEdit_2.text()
+		print(self.ip_address)
+
+	def portChanged(self):
+		self.port_address = self.lineEdit_3.text()
+		print(self.port_address)
+
+
+
 	def connectServer(self):
-		ip_port = ('127.0.0.1', 9996)
+		while True:
+			if self.ip_address != '' and self.port_address != '':
+				break
+			time.sleep(0.5)
+
+		ip_port = (self.ip_address, int(self.port_address))
+
+		# ip_port = ('127.0.0.1', 9996)
 
 		s = socket.socket()     # 创建套接字
 
-		s.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1)
+		s.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1)		
 
+		
 		s.connect(ip_port)      # 连接服务器	
+		#load_completed = QMessageBox.information(self, 'message', '成功连接到服务器', QMessageBox.Ok)
+		self.message.start()
+		
+		# exit()
 
+		origin_state = 0
+		current_state = 0
 
 		while True:
-			time.sleep(0.05)
-			if self.target_detect.isChecked():
-				self.function_dict['target_detect_is_open'] = True
-			else:
-				self.function_dict['target_detect_is_open'] = False
-			if self.traffic_light_detect.isChecked():
-				self.function_dict['traffic_light_detect_is_open'] = True
-			else:
-				self.function_dict['traffic_light_detect_is_open'] = False
-
-			if self.cars_detect.isChecked():
-				self.function_dict['cars_detect_is_open'] = True
-			else:
-				self.function_dict['cars_detect_is_open'] = False
-			if self.people_detect.isChecked():
-				self.function_dict['people_detect_is_open'] = True 
-			else:
-				self.function_dict['people_detect_is_open'] = False  
-			if self.license_plate_detect.isChecked():
-				self.function_dict['license_plate_detect_is_open'] = True
-			else:
-				self.function_dict['license_plate_detect_is_open'] = False
-
+			time.sleep(0.5)
 			# print(self.function_dict)	    
-			send_json = json.dumps(self.function_dict)
+			# send_json = json.dumps(self.function_dict)
 			#inp = pickle.dumps()		    
 
-			s.sendall(send_json.encode())
+			s.sendall("server_data".encode())
 
 			# print("waiting recv...")
 
@@ -107,21 +167,101 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 
 			result_dict = json.loads(result_json)
 
-			if(result_dict['data_h']):
-				if(len(result_dict['plate_info_list'])):
-					print(result_dict)
-			# print(result_dict['data_h'])
-			# if(result_dict['data_h'] != ''):
-			# 	print(self.result_dict)
+			# if(result_dict['data_h']):
+			# 	if(len(result_dict['plate_info_list'])):
+			# 		print(result_dict)
+
+		
+			# 目标检测
+			if self.target_detect.isChecked():
+				current_state = 1
+				self.rtmp_deal_address = "rtmp://101.132.236.124/live/stream"
+
+				# 交通灯检测
+				if self.traffic_light_detect.isChecked():
+					if result_dict['traffic_light_color'] == "green":
+						self.red_light.setVisible(False)
+						self.green_light.setVisible(True)
+					elif result_dict['traffic_light_color'] == "red":
+						self.green_light.setVisible(False)
+						self.red_light.setVisible(True)
+					else:
+						self.green_light.setVisible(False)
+						self.red_light.setVisible(False)
+				else:
+					self.green_light.setVisible(False)
+					self.red_light.setVisible(False)
+				# 车流量检测
+				if self.cars_detect.isChecked():	
+					# print("cars_detect")	
+					self.tableWidget.setItem(0,1,QTableWidgetItem(str(result_dict['cars_num'])))
+					self.tableWidget.setItem(0,2,QTableWidgetItem(str(result_dict['motors_num'])))
+				else:
+					self.tableWidget.setItem(0,1,QTableWidgetItem(str(0)))
+					self.tableWidget.setItem(0,2,QTableWidgetItem(str(0)))
+				# 人流量检测
+				if self.people_detect.isChecked():	
+					# print("people_detect")			
+					self.tableWidget.setItem(0,0,QTableWidgetItem(str(result_dict['people_num'])))
+				else:
+					self.tableWidget.setItem(0,0,QTableWidgetItem(str(0)))
+				# 车牌检测
+				if self.license_plate_detect.isChecked():
+					pass
+				else:
+					self.license_graph.clear()
+					self.license_result.clear()
+
+			else:
+				current_state = 0
+				if self.rtmp_address != '':
+					self.rtmp_deal_address = self.rtmp_address
+
+				self.green_light.setVisible(False)
+				self.red_light.setVisible(False)
+				self.break_traffic_label.setVisible(False)
+				self.break_traffic_warning.setVisible(False)
+				self.tableWidget.setItem(0,1,QTableWidgetItem(str(0)))
+				self.tableWidget.setItem(0,2,QTableWidgetItem(str(0)))
+				self.tableWidget.setItem(0,0,QTableWidgetItem(str(0)))
+
+			if origin_state != current_state:
+				self.stopEvent.set()
+				origin_state = current_state
 
 
+			# 系统日志
+			count_info_log = ''
+			event_info_log = ''
+			break_info_log = ''
 
+
+			self.sub_data = str(result_dict['people_num']) + ' ' + str(result_dict['cars_num']) + \
+						    ' ' + str(result_dict['motors_num'])
+
+			count_info_log = "people:" + str(result_dict['people_num']) + ", cars:" + str(result_dict['cars_num']) + \
+										", motors:" + str(result_dict['motors_num']) + ";\n"
+
+			plate_info_list = result_dict['plate_info_list']
+
+			if len(plate_info_list):
+				event_info_log = "车牌信息：" + plate_info_list[0][0] + \
+								 "识别准确率:" + str(plate_info_list[0][1])[:5] + '\n'
+			if(result_dict['pedestrians_num']):
+				break_info_log = str(result_dict['pedestrians_num']) + "人闯红灯;\n"
+				self.break_traffic_warning.setVisible(True)
+				self.break_traffic_label.setVisible(True)
+				self.break_traffic_label.setText(break_info_log)
+			else:
+				self.break_traffic_label.setVisible(False)
+				self.break_traffic_warning.setVisible(False)
+			
+
+			self.log_info = count_info_log + event_info_log + break_info_log
+			
+			
 		s.close()       # 关闭连接
 
-
-	def frameChange(self):
-		self.label_14.setText(str(self.changeFrameSlider.value()))
-		#print("frameInterval:" + str(self.frameInterval))
 
 
 	def logOutput(self, log):
@@ -155,68 +295,67 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 						size.width(),size.height())
 
 	def open_video(self):
-		video_thread = threading.Thread(target=self.display_video)
+		video_thread = threading.Thread(target=self.display_video, daemon=True)
 		video_thread.start()
-		self.logFile = open('../log/log_info.txt', 'a')
+		
 
 
 	def close_video(self):
 		self.stopEvent.set()
+		
 
 
 
 	def display_video(self):
+		self.logFile = open('../log/log_info.txt', 'a')
 		print("display")
-		file_name = "rtmp://kevinnan.org.cn/live/stream"
-		self.cap = cv2.VideoCapture(file_name)
+		# "rtmp://kevinnan.org.cn/live/livestream"
+		# "rtmp://kevinnan.org.cn/live/stream"
+
+		while self.rtmp_deal_address[:4] != "rtmp":
+			# print(self.rtmp_deal_address[:22])
+			time.sleep(0.5)
+
+
+		self.cap = cv2.VideoCapture(self.rtmp_deal_address)
 		self.cap.set(cv2.CAP_PROP_BUFFERSIZE, 4)
 		# self.frameRate = self.cap.get(cv2.CAP_PROP_FPS)
 		self.openFIleButton.setEnabled(False)
 		self.closeFileButton.setEnabled(True)
 
-		self.FPS = int(self.cap.get(cv2.CAP_PROP_FPS))
+		self.FPS = 1 / int(self.cap.get(cv2.CAP_PROP_FPS))
 		self.FPS_MS = int(self.FPS * 1000)
 
-		frames = 0
-		print("display")
-		while self.cap.isOpened():
-			print("display")
+		print("display_2")
+		while self.cap.isOpened():	
 			ret, frame = self.cap.read()
-			time.sleep(0.5)
+			time.sleep(self.FPS)
 			if ret:
-				if frames % self.changeFrameSlider.value() == 0:
-					#frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
-					# plate_frame = frame.copy()
-					img = frame.copy()
-					output = None 
-					orign_img = None
-
-					# 系统日志
-					count_info_log = ""
-					event_info_log = ""
-					break_info_log = ""
+				
+				#frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+				# plate_frame = frame.copy()
+				img = frame.copy()
+				#output = None 
+				#orign_img = None		
+				
+				if self.target_detect.isChecked():
+					self.logQueue.put(self.log_info)					
 		
-
-					log_info = count_info_log + event_info_log + break_info_log
-					self.logQueue.put(log_info)			
-					
-									
-			
-					img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
-					img = cv2.resize(img, (1080, 540)) 
-					img = QImage(img.data, img.shape[1], img.shape[0], QImage.Format_RGB888)
-					self.video_plate.setPixmap(QPixmap.fromImage(img))
+				img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
+				img = cv2.resize(img, (1080, 540)) 
+				img = QImage(img.data, img.shape[1], img.shape[0], QImage.Format_RGB888)
+				self.video_plate.setPixmap(QPixmap.fromImage(img))
 				# cv2.waitKey(self.FPS_MS)
-				frames += 1 
+				# frames += 1 
 				#print(frames)
 
 				if self.stopEvent.is_set():
 					self.stopEvent.clear()
 					#self.textEdit.clear()
 					self.video_plate.clear()
-					self.tableWidget.setItem(0,0,QTableWidgetItem(str(0)))
-					self.tableWidget.setItem(0,1,QTableWidgetItem(str(0)))
-					self.tableWidget.setItem(0,2,QTableWidgetItem(str(0)))
+					# self.tableWidget.setItem(0,0,QTableWidgetItem(str(0)))
+					# self.tableWidget.setItem(0,1,QTableWidgetItem(str(0)))
+					# self.tableWidget.setItem(0,2,QTableWidgetItem(str(0)))
 					break
 			else:
 				self.video_plate.clear()
@@ -236,33 +375,11 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 		
 
 
-	def load_model(self):
-		CUDA = torch.cuda.is_available() 
-		print("Loading network.....")
-		self.model = Darknet("../yolov3/cfg/yolov3.cfg")
-		#self.model = Darknet("../yolov3/cfg/yolov2-tiny.cfg")
-		self.model.load_weights("../yolov3/weights/yolov3.weights")
-		#self.model.load_weights("../yolov3/weights/yolov2-tiny.weights")
-
-		print("Network successfully loaded")
-		self.model.net_info["height"] = 416
-		inp_dim = int(self.model.net_info["height"])
-		assert inp_dim % 32 == 0 
-		assert inp_dim > 32
-
-		if CUDA:
-		    self.model.cuda()                        # 将模型迁移到GPU
-		self.model.eval()
-
-		load_completed = QMessageBox.information(self, 'message', '模型加载完成．', QMessageBox.Ok)
-		#load_completed.setText();
-		#load_completed.exec()
-
-
-
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     window = Main()
     window.show()
+
+
     sys.exit(app.exec_())
