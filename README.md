@@ -8,7 +8,7 @@
 
 基于以上背景，我简要介绍一下本项目的设计架构．
 
-![](./resources/design-framework.png)
+<div align=center><img width="350" height="300" src="./resources/design-framework.png"/></div>
 
 **首先**，网络摄像机将交通路口的监控视频实时上传到SRS流媒体服务器。
 
