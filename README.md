@@ -2,11 +2,11 @@
 
 > 交通路口智能监控系统2.0版本更新．2.0版本在之前版本的基础上做了一定改进，尤其是对项目的架构做了大幅度的调整．之后此项目默认分支为version2.0，如果要查看之前的版本可以在`Switch branches`菜单中选择master分支．
 
-> To Do : clone 分支代码
+> To Do : clone 分支代码; 或 clone整个项目,然后在本地切换分支
 
 ## 1、项目介绍
 
-智能交通监控系统采用识别技术进行分析，有异常状况发生(比如，当有行人闯红灯时、路口车辆和行人流量过大，导致堵塞交通时)就会自动通知交通管理人员．
+**项目背景**:智能交通监控系统采用识别技术进行分析，有异常状况发生(比如，当有行人闯红灯时、路口车辆和行人流量过大，导致堵塞交通时)就会自动通知交通管理人员．
 
 基于以上背景，我简要介绍一下本项目的设计架构．
 
@@ -18,7 +18,7 @@
 
 然后，当SRS流媒体服务器有视频流输入时，**云端GPU服务器**拉取原始视频流，然后通过YOLO等目标检测算法对视频进行分析和处理，然后将处理后的视频推流到SRS服务器。
 
-对于**本地客户端**，一方面可以直接从流媒体服务器拉流，查看远端网络摄像机的实时监控画面。另一方面，本地客户端也可以选择和远端的服务器通过Socket进行通信，获取服务器对监控视频的分析结果，比如路口的车流量、人流量等。同时，当选择与GPU服务器连接时，本地客户端也将更换rtmp流地址，拉取处理后的视频流．
+对于**本地客户端**，一方面可以直接从流媒体服务器拉流，查看远端网络摄像机的实时监控画面。另一方面，本地客户端也可以选择和远端的服务器通过`Socket`进行通信，获取服务器对监控视频的分析结果，比如路口的车流量、人流量等。同时，当选择与GPU服务器连接时，本地客户端也将更换`rtmp`流地址，拉取处理后的视频流．
 
 > 这里没有采用将分析结果发送到客户端，然后在客户端对目标进行标注的原因主要是考虑到分析结果和视频流刷新的同步问题。直接把处理后的视频推流是一个简单粗暴但行之有效的方法。
 
@@ -26,7 +26,7 @@
 
 - SRS流媒体服务器
 
-我本人是使用开源的[SRS实时视频服务器](https://github.com/ossrs/srs)，在之前购买的阿里云服务器上搭建了一个流媒体服务器，详细的过程可以参考我的之前的一篇博客－－[基于SRS搭建RTMP直播推流服务器](http://kevinnan.org.cn/index.php/archives/537/)．
+使用开源的[SRS实时视频服务器](https://github.com/ossrs/srs)，在之前购买的阿里云服务器上搭建了一个流媒体服务器，详细的过程可以参考我的博客－－[基于SRS搭建RTMP直播推流服务器](http://kevinnan.org.cn/index.php/archives/537/)．
 
 当然，如果你没有云服务器，也可以在本地的Linux机器上搭建SRS流媒体服务器，搭建方法可以查看该项目文档，也可参考之前提到的我的博客．
 
@@ -48,7 +48,9 @@ ffmpeg -re -stream_loop -1 -i traffic.flv -c copy -f flv rtmp://127.0.0.1/live/l
 
 上面的命令是对视频`traffic.flv`进行循环推流，推流到你的SRS流媒体服务器上．该rtmp流地址可根据你的情况修改．
 
-### 3.2 运行服务器程序（本地）
+### 3.2 安装环境依赖
+
+>  Note: 我的测试环境: ubuntu16.04STL + Python3.5
 
 1. 进入目录内
 ```shell
@@ -60,20 +62,26 @@ cd Intelligent-Traffic-Based-On-CV
 python3 -m venv .
 ```
 
+3. 激活虚拟环境
+```shell
+source bin/activate
+```
+
 3. 安装python依赖包
 ```shell
 pip install -r requirements.txt
 ```
 
-> 注：如果遇到某个包不能下载，可以先搜索该库对应版本的wheel文件，下载到本地，然后安装wheel．
+> Note：如果遇到某个包不能下载，可以先搜索该库对应版本的whl文件，下载到本地，然后安装whl．
 
 4. 下载YOLOv3权重
 	- [官方下载地址](https://pjreddie.com/media/files/yolov3.weights) 
 	- [百度网盘下载链接](https://pan.baidu.com/s/1CVgvP4hQQvDNbKmXhmkxqw) 　
 下载完成后将weights文件放在 **yolov3/weights** 目录下
-5. 运行服务器脚本
 
-2.0版本的代码在`scripts_2`目录下．
+### 3.3 运行服务器程序（本地）
+
+运行服务器脚本, 2.0版本的代码在`scripts_2`目录下．
 
 ```shell
 cd scripts_2
@@ -83,7 +91,7 @@ cd scripts_2
 python server.py
 ```
 
-### 3.3 运行客户端程序
+### 3.4 运行客户端程序
 
 ```shell
 python client_ui.py
@@ -97,9 +105,9 @@ python client_ui.py
 
 ### 四、代码结构说明
 
-1. **scripts** : python脚本
-   - main.py : 主程序入口
-   - core.py : UI界面脚本
+1. **scripts_2** : python脚本
+   - server.py : 服务端脚本
+   - client_ui.py main_window.py sub_window.py : 客户端PyQt5界面脚本
    - bbox.py  darknet.py video_demo.py util.py : YOLO相关代码
    - detect.py  : 颜色检测
    - plateRecognition.py  preprocess.py HyperLPRLite.py : 车牌检测相关代码
