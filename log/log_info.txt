@@ -48082,3 +48082,3604 @@ people:0, cars:0, motors:0;
 people:0, cars:0, motors:0;
 [2020/08/06 22:01:35]
 people:0, cars:0, motors:0;
+[2021/05/14 01:37:53]
+people:1, cars:8, motors:4;
+[2021/05/14 01:38:26]
+people:3, cars:10, motors:4;
+1人闯红灯;
+[2021/05/14 01:40:05]
+people:0, cars:10, motors:3;
+[2021/05/14 01:41:32]
+people:1, cars:10, motors:1;
+[2021/05/14 01:44:28]
+people:0, cars:9, motors:4;
+[2021/05/14 01:49:51]
+people:3, cars:9, motors:2;
+[2021/05/14 01:52:35]
+people:0, cars:6, motors:5;
+[2021/05/14 01:54:09]
+people:5, cars:8, motors:2;
+1人闯红灯;
+[2021/05/14 01:55:03]
+people:3, cars:13, motors:2;
+2人闯红灯;
+[2021/05/14 01:56:17]
+people:0, cars:4, motors:5;
+[2021/05/14 01:57:48]
+people:1, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 02:01:55]
+people:1, cars:4, motors:4;
+[2021/05/14 02:01:55]
+people:1, cars:4, motors:4;
+[2021/05/14 02:01:55]
+people:2, cars:4, motors:3;
+[2021/05/14 02:01:55]
+people:2, cars:4, motors:3;
+[2021/05/14 02:01:56]
+people:2, cars:4, motors:3;
+[2021/05/14 02:01:56]
+people:2, cars:5, motors:4;
+[2021/05/14 02:01:56]
+people:2, cars:5, motors:4;
+[2021/05/14 02:01:56]
+people:2, cars:5, motors:4;
+[2021/05/14 02:01:56]
+people:0, cars:3, motors:5;
+[2021/05/14 02:01:56]
+people:0, cars:3, motors:5;
+[2021/05/14 02:01:57]
+people:0, cars:3, motors:5;
+[2021/05/14 02:01:57]
+people:0, cars:3, motors:4;
+[2021/05/14 02:01:57]
+people:0, cars:3, motors:4;
+[2021/05/14 02:01:57]
+people:0, cars:3, motors:4;
+[2021/05/14 02:01:57]
+people:1, cars:3, motors:2;
+[2021/05/14 02:01:57]
+people:1, cars:3, motors:2;
+[2021/05/14 02:01:58]
+people:1, cars:3, motors:2;
+[2021/05/14 02:01:58]
+people:0, cars:5, motors:4;
+[2021/05/14 02:01:58]
+people:0, cars:5, motors:4;
+[2021/05/14 02:01:58]
+people:0, cars:5, motors:4;
+[2021/05/14 02:01:58]
+people:1, cars:4, motors:6;
+[2021/05/14 02:01:58]
+people:1, cars:4, motors:6;
+[2021/05/14 02:01:59]
+people:1, cars:4, motors:6;
+[2021/05/14 02:01:59]
+people:1, cars:3, motors:5;
+[2021/05/14 02:01:59]
+people:1, cars:3, motors:5;
+[2021/05/14 02:01:59]
+people:1, cars:3, motors:5;
+[2021/05/14 02:01:59]
+people:0, cars:5, motors:6;
+[2021/05/14 02:01:59]
+people:0, cars:5, motors:6;
+[2021/05/14 02:02:00]
+people:0, cars:5, motors:6;
+[2021/05/14 02:02:00]
+people:0, cars:5, motors:6;
+[2021/05/14 02:02:00]
+people:0, cars:5, motors:5;
+[2021/05/14 02:02:00]
+people:0, cars:5, motors:5;
+[2021/05/14 02:02:00]
+people:0, cars:5, motors:5;
+[2021/05/14 02:02:00]
+people:0, cars:5, motors:5;
+[2021/05/14 02:02:00]
+people:0, cars:5, motors:5;
+[2021/05/14 02:02:01]
+people:0, cars:5, motors:5;
+[2021/05/14 02:02:01]
+people:1, cars:4, motors:3;
+[2021/05/14 02:02:01]
+people:1, cars:4, motors:3;
+[2021/05/14 02:02:01]
+people:1, cars:4, motors:3;
+[2021/05/14 02:02:01]
+people:0, cars:4, motors:2;
+[2021/05/14 02:02:01]
+people:0, cars:4, motors:2;
+[2021/05/14 02:02:02]
+people:0, cars:4, motors:2;
+[2021/05/14 02:02:02]
+people:1, cars:4, motors:4;
+[2021/05/14 02:02:02]
+people:1, cars:4, motors:4;
+[2021/05/14 02:02:02]
+people:1, cars:4, motors:4;
+[2021/05/14 02:02:02]
+people:5, cars:7, motors:1;
+2人闯红灯;
+[2021/05/14 02:02:02]
+people:5, cars:7, motors:1;
+2人闯红灯;
+[2021/05/14 02:02:03]
+people:5, cars:7, motors:1;
+2人闯红灯;
+[2021/05/14 02:02:03]
+people:6, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 02:02:03]
+people:6, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 02:02:03]
+people:6, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 02:02:03]
+people:3, cars:10, motors:2;
+[2021/05/14 02:02:03]
+people:3, cars:10, motors:2;
+[2021/05/14 02:02:04]
+people:3, cars:10, motors:2;
+[2021/05/14 02:02:04]
+people:3, cars:10, motors:2;
+[2021/05/14 02:02:04]
+people:5, cars:8, motors:2;
+[2021/05/14 02:02:04]
+people:5, cars:8, motors:2;
+[2021/05/14 02:02:04]
+people:5, cars:8, motors:2;
+[2021/05/14 02:02:04]
+people:3, cars:8, motors:1;
+[2021/05/14 02:02:05]
+people:3, cars:8, motors:1;
+[2021/05/14 02:02:05]
+people:3, cars:8, motors:1;
+[2021/05/14 02:02:05]
+people:3, cars:8, motors:2;
+[2021/05/14 02:02:05]
+people:3, cars:8, motors:2;
+[2021/05/14 02:02:05]
+people:3, cars:8, motors:2;
+[2021/05/14 02:02:05]
+people:1, cars:9, motors:1;
+[2021/05/14 02:02:05]
+people:1, cars:9, motors:1;
+[2021/05/14 02:02:06]
+people:1, cars:9, motors:1;
+[2021/05/14 02:02:06]
+people:1, cars:10, motors:1;
+[2021/05/14 02:02:06]
+people:1, cars:10, motors:1;
+[2021/05/14 02:02:06]
+people:1, cars:10, motors:1;
+[2021/05/14 02:02:06]
+people:4, cars:7, motors:1;
+1人闯红灯;
+[2021/05/14 02:02:06]
+people:4, cars:7, motors:1;
+1人闯红灯;
+[2021/05/14 02:02:07]
+people:4, cars:7, motors:1;
+1人闯红灯;
+[2021/05/14 02:02:07]
+people:2, cars:13, motors:2;
+[2021/05/14 02:02:07]
+people:2, cars:13, motors:2;
+[2021/05/14 02:02:07]
+people:2, cars:13, motors:2;
+[2021/05/14 02:02:07]
+people:1, cars:8, motors:2;
+[2021/05/14 02:02:07]
+people:1, cars:8, motors:2;
+[2021/05/14 02:02:08]
+people:1, cars:8, motors:2;
+[2021/05/14 02:02:08]
+people:3, cars:8, motors:3;
+[2021/05/14 02:02:08]
+people:3, cars:8, motors:3;
+[2021/05/14 02:02:08]
+people:3, cars:8, motors:3;
+[2021/05/14 02:02:08]
+people:4, cars:13, motors:2;
+[2021/05/14 02:02:08]
+people:4, cars:13, motors:2;
+[2021/05/14 02:02:09]
+people:4, cars:13, motors:2;
+[2021/05/14 02:02:09]
+people:4, cars:13, motors:2;
+[2021/05/14 02:02:09]
+people:1, cars:12, motors:2;
+[2021/05/14 02:02:09]
+people:1, cars:12, motors:2;
+[2021/05/14 02:02:09]
+people:1, cars:12, motors:2;
+[2021/05/14 02:02:09]
+people:3, cars:14, motors:2;
+[2021/05/14 02:02:09]
+people:3, cars:14, motors:2;
+[2021/05/14 02:02:10]
+people:3, cars:14, motors:2;
+[2021/05/14 02:02:10]
+people:3, cars:12, motors:3;
+[2021/05/14 02:02:10]
+people:3, cars:12, motors:3;
+[2021/05/14 02:02:10]
+people:3, cars:12, motors:3;
+[2021/05/14 02:02:10]
+people:1, cars:13, motors:3;
+[2021/05/14 02:02:10]
+people:1, cars:13, motors:3;
+[2021/05/14 02:02:11]
+people:1, cars:13, motors:3;
+[2021/05/14 02:02:11]
+people:3, cars:10, motors:4;
+1人闯红灯;
+[2021/05/14 02:02:11]
+people:3, cars:10, motors:4;
+1人闯红灯;
+[2021/05/14 02:02:11]
+people:3, cars:10, motors:4;
+1人闯红灯;
+[2021/05/14 02:02:11]
+people:1, cars:12, motors:2;
+[2021/05/14 02:02:11]
+people:1, cars:12, motors:2;
+[2021/05/14 02:02:12]
+people:1, cars:12, motors:2;
+[2021/05/14 02:02:12]
+people:2, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:12]
+people:2, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:12]
+people:2, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:12]
+people:2, cars:12, motors:4;
+[2021/05/14 02:02:12]
+people:2, cars:12, motors:4;
+[2021/05/14 02:02:13]
+people:2, cars:12, motors:4;
+[2021/05/14 02:02:13]
+people:3, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 02:02:13]
+people:3, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 02:02:13]
+people:3, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 02:02:13]
+people:3, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 02:02:13]
+people:3, cars:12, motors:2;
+[2021/05/14 02:02:14]
+people:3, cars:12, motors:2;
+[2021/05/14 02:02:14]
+people:3, cars:12, motors:2;
+[2021/05/14 02:02:14]
+people:2, cars:15, motors:3;
+[2021/05/14 02:02:14]
+people:2, cars:15, motors:3;
+[2021/05/14 02:02:14]
+people:2, cars:15, motors:3;
+[2021/05/14 02:02:14]
+people:3, cars:15, motors:2;
+2人闯红灯;
+[2021/05/14 02:02:15]
+people:3, cars:15, motors:2;
+2人闯红灯;
+[2021/05/14 02:02:25]
+people:0, cars:11, motors:1;
+[2021/05/14 02:02:25]
+people:0, cars:11, motors:1;
+[2021/05/14 02:02:25]
+people:0, cars:11, motors:1;
+[2021/05/14 02:02:25]
+people:0, cars:11, motors:1;
+[2021/05/14 02:02:25]
+people:0, cars:11, motors:1;
+[2021/05/14 02:02:25]
+people:0, cars:11, motors:1;
+[2021/05/14 02:02:25]
+people:0, cars:11, motors:1;
+[2021/05/14 02:02:25]
+people:0, cars:11, motors:1;
+[2021/05/14 02:02:26]
+people:0, cars:11, motors:1;
+[2021/05/14 02:02:26]
+people:0, cars:11, motors:1;
+[2021/05/14 02:02:26]
+people:0, cars:11, motors:1;
+[2021/05/14 02:02:26]
+people:1, cars:11, motors:1;
+[2021/05/14 02:02:26]
+people:1, cars:11, motors:1;
+[2021/05/14 02:02:26]
+people:1, cars:11, motors:1;
+[2021/05/14 02:02:26]
+people:1, cars:11, motors:1;
+[2021/05/14 02:02:26]
+people:1, cars:11, motors:1;
+[2021/05/14 02:02:26]
+people:1, cars:11, motors:1;
+[2021/05/14 02:02:26]
+people:0, cars:11, motors:2;
+[2021/05/14 02:02:26]
+people:0, cars:11, motors:2;
+[2021/05/14 02:02:26]
+people:0, cars:11, motors:2;
+[2021/05/14 02:02:27]
+people:0, cars:11, motors:2;
+[2021/05/14 02:02:27]
+people:0, cars:11, motors:2;
+[2021/05/14 02:02:27]
+people:0, cars:10, motors:3;
+[2021/05/14 02:02:27]
+people:0, cars:10, motors:3;
+[2021/05/14 02:02:27]
+people:0, cars:10, motors:3;
+[2021/05/14 02:02:27]
+people:0, cars:10, motors:3;
+[2021/05/14 02:02:27]
+people:0, cars:9, motors:4;
+[2021/05/14 02:02:28]
+people:0, cars:9, motors:4;
+[2021/05/14 02:02:28]
+people:0, cars:9, motors:3;
+[2021/05/14 02:02:28]
+people:0, cars:9, motors:3;
+[2021/05/14 02:02:29]
+people:0, cars:9, motors:3;
+[2021/05/14 02:02:29]
+people:0, cars:8, motors:3;
+[2021/05/14 02:02:29]
+people:0, cars:8, motors:3;
+[2021/05/14 02:02:29]
+people:0, cars:10, motors:4;
+[2021/05/14 02:02:30]
+people:0, cars:10, motors:4;
+[2021/05/14 02:02:30]
+people:0, cars:10, motors:4;
+[2021/05/14 02:02:30]
+people:0, cars:0, motors:0;
+[2021/05/14 02:02:31]
+people:0, cars:0, motors:0;
+[2021/05/14 02:02:31]
+people:0, cars:10, motors:4;
+[2021/05/14 02:02:31]
+people:0, cars:10, motors:4;
+[2021/05/14 02:02:31]
+people:0, cars:0, motors:0;
+[2021/05/14 02:02:32]
+people:0, cars:0, motors:0;
+[2021/05/14 02:02:32]
+people:0, cars:0, motors:0;
+[2021/05/14 02:02:32]
+people:0, cars:9, motors:4;
+[2021/05/14 02:02:45]
+people:1, cars:3, motors:4;
+[2021/05/14 02:02:45]
+people:1, cars:3, motors:4;
+[2021/05/14 02:02:45]
+people:1, cars:3, motors:4;
+[2021/05/14 02:02:45]
+people:0, cars:5, motors:5;
+[2021/05/14 02:02:46]
+people:0, cars:5, motors:5;
+[2021/05/14 02:02:46]
+people:0, cars:5, motors:5;
+[2021/05/14 02:02:46]
+people:5, cars:9, motors:1;
+1人闯红灯;
+[2021/05/14 02:02:46]
+people:5, cars:9, motors:1;
+1人闯红灯;
+[2021/05/14 02:02:46]
+people:5, cars:9, motors:1;
+1人闯红灯;
+[2021/05/14 02:02:46]
+people:5, cars:9, motors:1;
+1人闯红灯;
+[2021/05/14 02:02:47]
+people:3, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:47]
+people:3, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:47]
+people:3, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:47]
+people:5, cars:8, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:47]
+people:5, cars:8, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:47]
+people:5, cars:8, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:47]
+people:4, cars:8, motors:2;
+[2021/05/14 02:02:48]
+people:4, cars:8, motors:2;
+[2021/05/14 02:02:48]
+people:4, cars:8, motors:2;
+[2021/05/14 02:02:48]
+people:3, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:48]
+people:3, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:48]
+people:3, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:48]
+people:4, cars:9, motors:1;
+[2021/05/14 02:02:49]
+people:4, cars:9, motors:1;
+[2021/05/14 02:02:49]
+people:4, cars:9, motors:1;
+[2021/05/14 02:02:49]
+people:1, cars:10, motors:1;
+[2021/05/14 02:02:49]
+people:1, cars:10, motors:1;
+[2021/05/14 02:02:49]
+people:1, cars:10, motors:1;
+[2021/05/14 02:02:49]
+people:3, cars:11, motors:2;
+[2021/05/14 02:02:50]
+people:3, cars:11, motors:2;
+[2021/05/14 02:02:50]
+people:3, cars:11, motors:2;
+[2021/05/14 02:02:50]
+people:2, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 02:02:50]
+people:2, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 02:02:50]
+people:2, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 02:02:50]
+people:2, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 02:02:51]
+people:1, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 02:02:51]
+people:1, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 02:02:51]
+people:1, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 02:02:51]
+people:2, cars:9, motors:3;
+1人闯红灯;
+[2021/05/14 02:02:51]
+people:2, cars:9, motors:3;
+1人闯红灯;
+[2021/05/14 02:02:51]
+people:2, cars:9, motors:3;
+1人闯红灯;
+[2021/05/14 02:02:52]
+people:5, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:52]
+people:5, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:52]
+people:5, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:52]
+people:1, cars:12, motors:2;
+[2021/05/14 02:02:52]
+people:1, cars:12, motors:2;
+[2021/05/14 02:02:52]
+people:1, cars:12, motors:2;
+[2021/05/14 02:02:52]
+people:3, cars:13, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:53]
+people:3, cars:13, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:53]
+people:3, cars:13, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:53]
+people:2, cars:13, motors:3;
+[2021/05/14 02:02:53]
+people:2, cars:13, motors:3;
+[2021/05/14 02:02:53]
+people:2, cars:13, motors:3;
+[2021/05/14 02:02:53]
+people:2, cars:14, motors:3;
+[2021/05/14 02:02:54]
+people:2, cars:14, motors:3;
+[2021/05/14 02:02:54]
+people:2, cars:14, motors:3;
+[2021/05/14 02:02:54]
+people:2, cars:14, motors:3;
+[2021/05/14 02:02:54]
+people:2, cars:12, motors:4;
+[2021/05/14 02:02:54]
+people:2, cars:12, motors:4;
+[2021/05/14 02:02:54]
+people:2, cars:12, motors:4;
+[2021/05/14 02:02:55]
+people:2, cars:11, motors:2;
+[2021/05/14 02:02:55]
+people:2, cars:11, motors:2;
+[2021/05/14 02:02:55]
+people:2, cars:11, motors:2;
+[2021/05/14 02:02:55]
+people:3, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:55]
+people:3, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:55]
+people:3, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 02:02:56]
+people:2, cars:13, motors:5;
+[2021/05/14 02:02:56]
+people:2, cars:13, motors:5;
+[2021/05/14 02:02:56]
+people:2, cars:13, motors:5;
+[2021/05/14 02:02:56]
+people:2, cars:12, motors:4;
+[2021/05/14 02:02:56]
+people:2, cars:12, motors:4;
+[2021/05/14 02:02:56]
+people:2, cars:12, motors:4;
+[2021/05/14 02:02:56]
+people:2, cars:13, motors:2;
+[2021/05/14 02:02:57]
+people:2, cars:13, motors:2;
+[2021/05/14 02:02:57]
+people:2, cars:13, motors:2;
+[2021/05/14 02:02:57]
+people:3, cars:14, motors:3;
+[2021/05/14 02:02:57]
+people:3, cars:14, motors:3;
+[2021/05/14 02:02:57]
+people:3, cars:14, motors:3;
+[2021/05/14 02:02:57]
+people:4, cars:15, motors:3;
+1人闯红灯;
+[2021/05/14 02:02:58]
+people:4, cars:15, motors:3;
+1人闯红灯;
+[2021/05/14 02:02:58]
+people:4, cars:15, motors:3;
+1人闯红灯;
+[2021/05/14 02:02:58]
+people:3, cars:15, motors:2;
+2人闯红灯;
+[2021/05/14 02:02:58]
+people:3, cars:15, motors:2;
+2人闯红灯;
+[2021/05/14 02:02:58]
+people:3, cars:15, motors:2;
+2人闯红灯;
+[2021/05/14 02:02:58]
+people:2, cars:16, motors:2;
+[2021/05/14 02:02:59]
+people:2, cars:16, motors:2;
+[2021/05/14 02:02:59]
+people:2, cars:16, motors:2;
+[2021/05/14 02:02:59]
+people:2, cars:16, motors:2;
+[2021/05/14 02:02:59]
+people:4, cars:15, motors:3;
+[2021/05/14 02:02:59]
+people:4, cars:15, motors:3;
+[2021/05/14 02:02:59]
+people:4, cars:15, motors:3;
+[2021/05/14 02:03:00]
+people:2, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 02:03:00]
+people:2, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 02:03:00]
+people:2, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 02:03:00]
+people:3, cars:10, motors:1;
+[2021/05/14 02:03:00]
+people:3, cars:10, motors:1;
+[2021/05/14 02:03:00]
+people:3, cars:10, motors:1;
+[2021/05/14 02:03:00]
+people:2, cars:11, motors:1;
+[2021/05/14 02:03:01]
+people:2, cars:11, motors:1;
+[2021/05/14 02:03:01]
+people:2, cars:11, motors:1;
+[2021/05/14 02:03:01]
+people:3, cars:11, motors:2;
+[2021/05/14 02:03:01]
+people:3, cars:11, motors:2;
+[2021/05/14 02:03:01]
+people:3, cars:11, motors:2;
+[2021/05/14 02:03:01]
+people:2, cars:14, motors:2;
+[2021/05/14 02:03:02]
+people:2, cars:14, motors:2;
+[2021/05/14 02:03:02]
+people:2, cars:14, motors:2;
+[2021/05/14 02:03:02]
+people:2, cars:12, motors:1;
+[2021/05/14 02:03:02]
+people:2, cars:12, motors:1;
+[2021/05/14 02:03:02]
+people:2, cars:12, motors:1;
+[2021/05/14 02:03:02]
+people:1, cars:12, motors:1;
+[2021/05/14 02:03:03]
+people:1, cars:12, motors:1;
+[2021/05/14 02:03:03]
+people:1, cars:12, motors:1;
+[2021/05/14 02:03:03]
+people:1, cars:12, motors:1;
+[2021/05/14 02:03:03]
+people:0, cars:13, motors:2;
+[2021/05/14 02:03:03]
+people:0, cars:13, motors:2;
+[2021/05/14 02:03:03]
+people:0, cars:13, motors:2;
+[2021/05/14 02:03:04]
+people:2, cars:12, motors:2;
+[2021/05/14 02:03:04]
+people:2, cars:12, motors:2;
+[2021/05/14 02:03:04]
+people:2, cars:12, motors:2;
+[2021/05/14 02:03:04]
+people:2, cars:10, motors:3;
+[2021/05/14 02:03:04]
+people:2, cars:10, motors:3;
+[2021/05/14 02:03:04]
+people:2, cars:10, motors:3;
+[2021/05/14 02:03:05]
+people:3, cars:11, motors:3;
+[2021/05/14 02:03:05]
+people:3, cars:11, motors:3;
+[2021/05/14 02:03:05]
+people:3, cars:11, motors:3;
+[2021/05/14 02:03:05]
+people:1, cars:8, motors:2;
+[2021/05/14 02:03:05]
+people:1, cars:8, motors:2;
+[2021/05/14 02:03:05]
+people:1, cars:8, motors:2;
+[2021/05/14 02:03:05]
+people:2, cars:7, motors:3;
+[2021/05/14 02:03:06]
+people:2, cars:7, motors:3;
+[2021/05/14 02:03:06]
+people:2, cars:7, motors:3;
+[2021/05/14 02:03:06]
+people:0, cars:8, motors:4;
+[2021/05/14 02:03:06]
+people:0, cars:8, motors:4;
+[2021/05/14 02:03:06]
+people:0, cars:8, motors:4;
+[2021/05/14 02:03:06]
+people:0, cars:8, motors:4;
+[2021/05/14 02:03:07]
+people:0, cars:8, motors:4;
+[2021/05/14 02:03:07]
+people:0, cars:8, motors:4;
+[2021/05/14 02:03:07]
+people:0, cars:10, motors:3;
+[2021/05/14 02:03:07]
+people:0, cars:10, motors:3;
+[2021/05/14 02:03:07]
+people:0, cars:10, motors:3;
+[2021/05/14 02:03:07]
+people:0, cars:10, motors:3;
+[2021/05/14 02:03:08]
+people:0, cars:9, motors:1;
+[2021/05/14 02:03:08]
+people:0, cars:9, motors:1;
+[2021/05/14 02:03:08]
+people:0, cars:9, motors:1;
+[2021/05/14 02:03:08]
+people:0, cars:9, motors:1;
+[2021/05/14 02:03:08]
+people:0, cars:9, motors:1;
+[2021/05/14 02:03:08]
+people:0, cars:9, motors:1;
+[2021/05/14 02:03:09]
+people:1, cars:11, motors:1;
+[2021/05/14 02:03:09]
+people:1, cars:11, motors:1;
+[2021/05/14 02:03:09]
+people:1, cars:11, motors:1;
+[2021/05/14 02:03:09]
+people:1, cars:11, motors:2;
+[2021/05/14 02:03:09]
+people:1, cars:11, motors:2;
+[2021/05/14 02:03:09]
+people:1, cars:11, motors:2;
+[2021/05/14 02:03:10]
+people:0, cars:10, motors:2;
+[2021/05/14 02:03:10]
+people:0, cars:10, motors:2;
+[2021/05/14 02:03:10]
+people:0, cars:10, motors:2;
+[2021/05/14 02:03:10]
+people:0, cars:10, motors:3;
+[2021/05/14 02:03:10]
+people:0, cars:9, motors:2;
+[2021/05/14 02:03:11]
+people:0, cars:9, motors:2;
+[2021/05/14 02:03:11]
+people:0, cars:9, motors:4;
+[2021/05/14 02:03:12]
+people:0, cars:9, motors:4;
+[2021/05/14 02:03:12]
+people:0, cars:9, motors:3;
+[2021/05/14 02:03:12]
+people:0, cars:9, motors:3;
+[2021/05/14 02:03:13]
+people:0, cars:8, motors:3;
+[2021/05/14 02:03:13]
+people:0, cars:0, motors:0;
+[2021/05/14 02:03:14]
+people:0, cars:0, motors:0;
+[2021/05/14 02:03:14]
+people:0, cars:10, motors:4;
+[2021/05/14 02:03:14]
+people:0, cars:10, motors:4;
+[2021/05/14 02:03:15]
+people:0, cars:0, motors:0;
+[2021/05/14 02:03:15]
+people:0, cars:0, motors:0;
+[2021/05/14 02:03:15]
+people:0, cars:0, motors:0;
+[2021/05/14 02:03:16]
+people:0, cars:10, motors:4;
+[2021/05/14 02:03:16]
+people:0, cars:0, motors:0;
+[2021/05/14 02:03:17]
+people:0, cars:0, motors:0;
+[2021/05/14 02:03:17]
+people:0, cars:8, motors:4;
+[2021/05/14 02:03:18]
+people:0, cars:0, motors:0;
+[2021/05/14 02:03:18]
+people:0, cars:0, motors:0;
+[2021/05/14 02:03:18]
+people:0, cars:0, motors:0;
+[2021/05/14 02:03:19]
+people:0, cars:10, motors:5;
+[2021/05/14 02:03:19]
+people:0, cars:0, motors:0;
+[2021/05/14 02:03:20]
+people:0, cars:0, motors:0;
+[2021/05/14 02:03:20]
+people:1, cars:9, motors:5;
+[2021/05/14 02:03:21]
+people:1, cars:9, motors:5;
+[2021/05/14 02:03:21]
+people:0, cars:0, motors:0;
+[2021/05/14 02:04:20]
+people:6, cars:9, motors:2;
+2人闯红灯;
+[2021/05/14 02:04:20]
+people:2, cars:10, motors:1;
+[2021/05/14 02:04:21]
+people:2, cars:10, motors:1;
+[2021/05/14 02:04:21]
+people:2, cars:10, motors:1;
+[2021/05/14 02:04:21]
+people:2, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 02:04:21]
+people:2, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 02:04:21]
+people:2, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 02:04:21]
+people:3, cars:13, motors:2;
+1人闯红灯;
+[2021/05/14 02:04:22]
+people:3, cars:13, motors:2;
+1人闯红灯;
+[2021/05/14 02:04:22]
+people:3, cars:13, motors:2;
+1人闯红灯;
+[2021/05/14 02:04:22]
+people:1, cars:12, motors:2;
+[2021/05/14 02:04:22]
+people:1, cars:12, motors:2;
+[2021/05/14 02:04:22]
+people:1, cars:12, motors:2;
+[2021/05/14 02:04:22]
+people:3, cars:10, motors:4;
+1人闯红灯;
+[2021/05/14 02:04:23]
+people:3, cars:10, motors:4;
+1人闯红灯;
+[2021/05/14 02:04:23]
+people:3, cars:10, motors:4;
+1人闯红灯;
+[2021/05/14 02:04:23]
+people:2, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 02:04:23]
+people:2, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 02:04:23]
+people:2, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 02:04:23]
+people:2, cars:14, motors:2;
+[2021/05/14 02:04:24]
+people:2, cars:14, motors:2;
+[2021/05/14 02:04:24]
+people:2, cars:14, motors:2;
+[2021/05/14 02:04:24]
+people:4, cars:13, motors:3;
+[2021/05/14 02:04:24]
+people:4, cars:13, motors:3;
+[2021/05/14 02:04:24]
+people:4, cars:13, motors:3;
+[2021/05/14 02:04:24]
+people:4, cars:13, motors:3;
+[2021/05/14 02:04:24]
+people:3, cars:16, motors:2;
+1人闯红灯;
+[2021/05/14 02:04:25]
+people:3, cars:16, motors:2;
+1人闯红灯;
+[2021/05/14 02:04:25]
+people:3, cars:16, motors:2;
+1人闯红灯;
+[2021/05/14 02:04:25]
+people:1, cars:13, motors:3;
+[2021/05/14 02:04:25]
+people:1, cars:13, motors:3;
+[2021/05/14 02:04:25]
+people:1, cars:13, motors:3;
+[2021/05/14 02:04:25]
+people:2, cars:11, motors:2;
+[2021/05/14 02:04:26]
+people:2, cars:11, motors:2;
+[2021/05/14 02:04:26]
+people:2, cars:11, motors:2;
+[2021/05/14 02:04:26]
+people:3, cars:14, motors:1;
+2人闯红灯;
+[2021/05/14 02:04:26]
+people:3, cars:14, motors:1;
+2人闯红灯;
+[2021/05/14 02:04:26]
+people:3, cars:14, motors:1;
+2人闯红灯;
+[2021/05/14 02:04:26]
+people:3, cars:12, motors:1;
+[2021/05/14 02:04:27]
+people:3, cars:12, motors:1;
+[2021/05/14 02:04:27]
+people:3, cars:12, motors:1;
+[2021/05/14 02:04:27]
+people:5, cars:10, motors:1;
+[2021/05/14 02:04:27]
+people:5, cars:10, motors:1;
+[2021/05/14 02:04:27]
+people:5, cars:10, motors:1;
+[2021/05/14 02:04:27]
+people:2, cars:11, motors:3;
+[2021/05/14 02:04:28]
+people:2, cars:11, motors:3;
+[2021/05/14 02:04:28]
+people:2, cars:11, motors:3;
+[2021/05/14 02:04:28]
+people:2, cars:13, motors:1;
+[2021/05/14 02:04:28]
+people:2, cars:13, motors:1;
+[2021/05/14 02:04:28]
+people:2, cars:13, motors:1;
+[2021/05/14 02:04:28]
+people:2, cars:13, motors:2;
+[2021/05/14 02:04:29]
+people:2, cars:13, motors:2;
+[2021/05/14 02:04:29]
+people:2, cars:13, motors:2;
+[2021/05/14 02:04:29]
+people:2, cars:13, motors:2;
+[2021/05/14 02:04:29]
+people:1, cars:13, motors:2;
+[2021/05/14 02:04:29]
+people:1, cars:13, motors:2;
+[2021/05/14 02:04:29]
+people:1, cars:13, motors:2;
+[2021/05/14 02:04:29]
+people:1, cars:13, motors:1;
+[2021/05/14 02:04:30]
+people:1, cars:13, motors:1;
+[2021/05/14 02:04:30]
+people:1, cars:13, motors:1;
+[2021/05/14 02:04:30]
+people:0, cars:12, motors:2;
+[2021/05/14 02:04:30]
+people:0, cars:12, motors:2;
+[2021/05/14 02:04:30]
+people:0, cars:12, motors:2;
+[2021/05/14 02:04:30]
+people:1, cars:10, motors:4;
+[2021/05/14 02:04:31]
+people:1, cars:10, motors:4;
+[2021/05/14 02:04:31]
+people:1, cars:10, motors:4;
+[2021/05/14 02:04:31]
+people:1, cars:8, motors:4;
+[2021/05/14 02:04:31]
+people:1, cars:8, motors:4;
+[2021/05/14 02:04:31]
+people:1, cars:8, motors:4;
+[2021/05/14 02:04:31]
+people:1, cars:8, motors:3;
+[2021/05/14 02:04:32]
+people:1, cars:8, motors:3;
+[2021/05/14 02:04:32]
+people:1, cars:8, motors:3;
+[2021/05/14 02:04:32]
+people:1, cars:7, motors:4;
+[2021/05/14 02:04:32]
+people:1, cars:7, motors:4;
+[2021/05/14 02:04:32]
+people:1, cars:7, motors:4;
+[2021/05/14 02:04:32]
+people:0, cars:7, motors:4;
+[2021/05/14 02:04:33]
+people:0, cars:7, motors:4;
+[2021/05/14 02:04:33]
+people:0, cars:7, motors:4;
+[2021/05/14 02:04:33]
+people:0, cars:8, motors:3;
+[2021/05/14 02:04:33]
+people:0, cars:8, motors:3;
+[2021/05/14 02:04:33]
+people:0, cars:8, motors:3;
+[2021/05/14 02:04:33]
+people:0, cars:10, motors:3;
+[2021/05/14 02:04:34]
+people:0, cars:10, motors:3;
+[2021/05/14 02:04:34]
+people:0, cars:10, motors:3;
+[2021/05/14 02:04:34]
+people:0, cars:10, motors:2;
+[2021/05/14 02:04:34]
+people:0, cars:10, motors:2;
+[2021/05/14 02:04:34]
+people:0, cars:10, motors:2;
+[2021/05/14 02:04:34]
+people:0, cars:9, motors:1;
+[2021/05/14 02:04:35]
+people:0, cars:9, motors:1;
+[2021/05/14 02:04:35]
+people:0, cars:9, motors:1;
+[2021/05/14 02:04:35]
+people:0, cars:9, motors:1;
+[2021/05/14 02:04:35]
+people:1, cars:11, motors:1;
+[2021/05/14 02:04:35]
+people:1, cars:11, motors:1;
+[2021/05/14 02:04:35]
+people:1, cars:11, motors:1;
+[2021/05/14 02:04:36]
+people:1, cars:10, motors:1;
+[2021/05/14 02:04:36]
+people:1, cars:10, motors:1;
+[2021/05/14 02:04:36]
+people:1, cars:10, motors:1;
+[2021/05/14 02:04:36]
+people:0, cars:9, motors:4;
+[2021/05/14 02:04:36]
+people:0, cars:9, motors:4;
+[2021/05/14 02:04:36]
+people:0, cars:9, motors:4;
+[2021/05/14 02:04:36]
+people:0, cars:9, motors:2;
+[2021/05/14 02:04:37]
+people:0, cars:9, motors:2;
+[2021/05/14 02:04:37]
+people:0, cars:9, motors:2;
+[2021/05/14 02:04:37]
+people:0, cars:9, motors:3;
+[2021/05/14 02:04:37]
+people:0, cars:9, motors:3;
+[2021/05/14 02:04:37]
+people:0, cars:9, motors:3;
+[2021/05/14 02:04:37]
+people:0, cars:8, motors:3;
+[2021/05/14 02:04:38]
+people:0, cars:8, motors:3;
+[2021/05/14 02:04:38]
+people:0, cars:8, motors:3;
+[2021/05/14 02:04:38]
+people:0, cars:9, motors:4;
+[2021/05/14 02:04:38]
+people:0, cars:9, motors:4;
+[2021/05/14 02:04:38]
+people:0, cars:9, motors:4;
+[2021/05/14 02:04:38]
+people:0, cars:10, motors:5;
+[2021/05/14 02:04:39]
+people:0, cars:10, motors:5;
+[2021/05/14 02:04:39]
+people:0, cars:10, motors:5;
+[2021/05/14 02:04:39]
+people:1, cars:9, motors:5;
+[2021/05/14 02:04:39]
+people:1, cars:9, motors:5;
+[2021/05/14 02:04:39]
+people:1, cars:9, motors:5;
+[2021/05/14 02:04:39]
+people:1, cars:9, motors:4;
+[2021/05/14 02:04:40]
+people:1, cars:9, motors:4;
+[2021/05/14 02:04:40]
+people:1, cars:9, motors:4;
+[2021/05/14 02:04:40]
+people:1, cars:9, motors:4;
+[2021/05/14 02:04:40]
+people:1, cars:8, motors:2;
+[2021/05/14 02:04:40]
+people:1, cars:8, motors:2;
+[2021/05/14 02:04:40]
+people:1, cars:8, motors:2;
+[2021/05/14 02:04:41]
+people:1, cars:7, motors:2;
+[2021/05/14 02:04:41]
+people:1, cars:7, motors:2;
+[2021/05/14 02:04:41]
+people:1, cars:7, motors:2;
+[2021/05/14 02:04:41]
+people:1, cars:7, motors:4;
+[2021/05/14 02:04:41]
+people:1, cars:7, motors:4;
+[2021/05/14 02:04:41]
+people:1, cars:7, motors:4;
+[2021/05/14 02:04:41]
+people:1, cars:9, motors:2;
+[2021/05/14 02:04:42]
+people:1, cars:9, motors:2;
+[2021/05/14 02:04:42]
+people:1, cars:9, motors:2;
+[2021/05/14 02:04:42]
+people:1, cars:7, motors:2;
+[2021/05/14 02:04:42]
+people:1, cars:7, motors:2;
+[2021/05/14 02:04:42]
+people:1, cars:7, motors:2;
+[2021/05/14 02:04:42]
+people:2, cars:8, motors:3;
+[2021/05/14 02:04:43]
+people:2, cars:8, motors:3;
+[2021/05/14 02:04:43]
+people:2, cars:8, motors:3;
+[2021/05/14 02:04:43]
+people:0, cars:8, motors:3;
+[2021/05/14 02:04:43]
+people:0, cars:8, motors:3;
+[2021/05/14 02:04:43]
+people:0, cars:8, motors:3;
+[2021/05/14 02:04:43]
+people:0, cars:7, motors:4;
+[2021/05/14 02:04:44]
+people:0, cars:7, motors:4;
+[2021/05/14 02:04:44]
+people:0, cars:7, motors:4;
+[2021/05/14 02:04:44]
+people:0, cars:5, motors:2;
+[2021/05/14 02:04:44]
+people:0, cars:5, motors:2;
+[2021/05/14 02:04:44]
+people:0, cars:5, motors:2;
+[2021/05/14 02:04:44]
+people:0, cars:6, motors:2;
+[2021/05/14 02:04:45]
+people:0, cars:6, motors:2;
+[2021/05/14 02:04:45]
+people:0, cars:6, motors:2;
+[2021/05/14 02:04:45]
+people:0, cars:5, motors:2;
+[2021/05/14 02:04:45]
+people:0, cars:5, motors:2;
+[2021/05/14 02:04:45]
+people:0, cars:5, motors:2;
+[2021/05/14 02:04:45]
+people:0, cars:5, motors:2;
+[2021/05/14 02:04:46]
+people:1, cars:7, motors:3;
+[2021/05/14 21:28:13]
+people:2, cars:10, motors:4;
+[2021/05/14 21:28:13]
+people:2, cars:10, motors:4;
+[2021/05/14 21:28:13]
+people:2, cars:10, motors:4;
+[2021/05/14 21:28:13]
+people:1, cars:9, motors:2;
+[2021/05/14 21:28:13]
+people:1, cars:9, motors:2;
+[2021/05/14 21:28:13]
+people:1, cars:9, motors:2;
+[2021/05/14 21:28:14]
+people:1, cars:9, motors:2;
+[2021/05/14 21:28:14]
+people:0, cars:7, motors:4;
+[2021/05/14 21:28:14]
+people:0, cars:7, motors:4;
+[2021/05/14 21:28:14]
+people:0, cars:7, motors:4;
+[2021/05/14 21:28:14]
+people:0, cars:7, motors:4;
+[2021/05/14 21:28:14]
+people:0, cars:7, motors:4;
+[2021/05/14 21:28:15]
+people:0, cars:7, motors:4;
+[2021/05/14 21:28:15]
+people:0, cars:8, motors:4;
+[2021/05/14 21:28:15]
+people:0, cars:8, motors:4;
+[2021/05/14 21:28:15]
+people:0, cars:8, motors:4;
+[2021/05/14 21:28:15]
+people:0, cars:8, motors:4;
+[2021/05/14 21:28:15]
+people:0, cars:8, motors:4;
+[2021/05/14 21:28:16]
+people:0, cars:8, motors:4;
+[2021/05/14 21:28:16]
+people:0, cars:11, motors:1;
+[2021/05/14 21:28:16]
+people:0, cars:11, motors:1;
+[2021/05/14 21:28:16]
+people:0, cars:11, motors:1;
+[2021/05/14 21:28:16]
+people:0, cars:11, motors:1;
+[2021/05/14 21:28:16]
+people:0, cars:11, motors:1;
+[2021/05/14 21:28:16]
+people:0, cars:11, motors:1;
+[2021/05/14 21:28:17]
+people:1, cars:9, motors:1;
+[2021/05/14 21:28:17]
+people:1, cars:9, motors:1;
+[2021/05/14 21:28:17]
+people:1, cars:9, motors:1;
+[2021/05/14 21:28:17]
+people:0, cars:10, motors:2;
+[2021/05/14 21:28:17]
+people:0, cars:10, motors:2;
+[2021/05/14 21:28:17]
+people:0, cars:10, motors:2;
+[2021/05/14 21:28:18]
+people:1, cars:10, motors:2;
+[2021/05/14 21:28:18]
+people:1, cars:10, motors:2;
+[2021/05/14 21:28:18]
+people:1, cars:10, motors:2;
+[2021/05/14 21:28:18]
+people:1, cars:10, motors:2;
+[2021/05/14 21:28:18]
+people:0, cars:10, motors:3;
+[2021/05/14 21:28:18]
+people:0, cars:10, motors:3;
+[2021/05/14 21:28:19]
+people:0, cars:10, motors:3;
+[2021/05/14 21:28:19]
+people:0, cars:9, motors:4;
+[2021/05/14 21:28:19]
+people:0, cars:9, motors:4;
+[2021/05/14 21:28:19]
+people:0, cars:9, motors:4;
+[2021/05/14 21:28:19]
+people:0, cars:10, motors:4;
+[2021/05/14 21:28:19]
+people:0, cars:10, motors:4;
+[2021/05/14 21:28:20]
+people:0, cars:10, motors:4;
+[2021/05/14 21:28:20]
+people:0, cars:10, motors:4;
+[2021/05/14 21:28:20]
+people:0, cars:10, motors:4;
+[2021/05/14 21:28:20]
+people:0, cars:10, motors:4;
+[2021/05/14 21:28:20]
+people:0, cars:8, motors:4;
+[2021/05/14 21:28:20]
+people:0, cars:8, motors:4;
+[2021/05/14 21:28:21]
+people:0, cars:8, motors:4;
+[2021/05/14 21:28:21]
+people:0, cars:9, motors:5;
+[2021/05/14 21:28:21]
+people:0, cars:9, motors:5;
+[2021/05/14 21:28:21]
+people:0, cars:9, motors:5;
+[2021/05/14 21:28:21]
+people:0, cars:8, motors:4;
+[2021/05/14 21:28:21]
+people:0, cars:8, motors:4;
+[2021/05/14 21:28:22]
+people:0, cars:8, motors:4;
+[2021/05/14 21:28:22]
+people:1, cars:8, motors:3;
+[2021/05/14 21:28:22]
+people:1, cars:8, motors:3;
+[2021/05/14 21:28:22]
+people:1, cars:8, motors:3;
+[2021/05/14 21:28:22]
+people:1, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 21:28:22]
+people:1, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 21:28:23]
+people:1, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 21:28:23]
+people:1, cars:7, motors:2;
+[2021/05/14 21:28:23]
+people:1, cars:7, motors:2;
+[2021/05/14 21:28:23]
+people:1, cars:7, motors:2;
+[2021/05/14 21:28:23]
+people:1, cars:7, motors:4;
+[2021/05/14 21:28:23]
+people:1, cars:7, motors:4;
+[2021/05/14 21:28:23]
+people:1, cars:7, motors:4;
+[2021/05/14 21:28:24]
+people:1, cars:7, motors:2;
+[2021/05/14 21:28:24]
+people:1, cars:7, motors:2;
+[2021/05/14 21:28:24]
+people:1, cars:7, motors:2;
+[2021/05/14 21:28:24]
+people:1, cars:7, motors:3;
+[2021/05/14 21:28:24]
+people:1, cars:7, motors:3;
+[2021/05/14 21:28:24]
+people:1, cars:7, motors:3;
+[2021/05/14 21:28:25]
+people:0, cars:7, motors:3;
+[2021/05/14 21:28:25]
+people:0, cars:7, motors:3;
+[2021/05/14 21:28:25]
+people:0, cars:7, motors:3;
+[2021/05/14 21:28:25]
+people:0, cars:7, motors:4;
+[2021/05/14 21:28:25]
+people:0, cars:7, motors:4;
+[2021/05/14 21:28:26]
+people:0, cars:7, motors:4;
+[2021/05/14 21:28:26]
+people:0, cars:7, motors:3;
+[2021/05/14 21:28:26]
+people:0, cars:7, motors:3;
+[2021/05/14 21:28:26]
+people:0, cars:7, motors:3;
+[2021/05/14 21:28:26]
+people:0, cars:5, motors:3;
+[2021/05/14 21:28:26]
+people:0, cars:5, motors:3;
+[2021/05/14 21:28:26]
+people:0, cars:5, motors:3;
+[2021/05/14 21:28:27]
+people:0, cars:6, motors:2;
+[2021/05/14 21:28:27]
+people:0, cars:6, motors:2;
+[2021/05/14 21:28:27]
+people:0, cars:6, motors:2;
+[2021/05/14 21:28:27]
+people:0, cars:6, motors:2;
+[2021/05/14 21:28:27]
+people:0, cars:6, motors:4;
+[2021/05/14 21:28:27]
+people:0, cars:6, motors:4;
+[2021/05/14 21:28:28]
+people:0, cars:6, motors:4;
+[2021/05/14 21:28:28]
+people:0, cars:6, motors:6;
+[2021/05/14 21:28:28]
+people:0, cars:6, motors:6;
+[2021/05/14 21:28:28]
+people:0, cars:6, motors:6;
+[2021/05/14 21:28:28]
+people:1, cars:6, motors:3;
+[2021/05/14 21:28:28]
+people:1, cars:6, motors:3;
+[2021/05/14 21:28:29]
+people:1, cars:6, motors:3;
+[2021/05/14 21:28:29]
+people:1, cars:4, motors:3;
+[2021/05/14 21:28:29]
+people:1, cars:4, motors:3;
+[2021/05/14 21:28:29]
+people:1, cars:4, motors:3;
+[2021/05/14 21:28:29]
+people:1, cars:5, motors:5;
+[2021/05/14 21:28:29]
+people:1, cars:5, motors:5;
+[2021/05/14 21:28:30]
+people:1, cars:5, motors:5;
+[2021/05/14 21:28:30]
+people:2, cars:4, motors:3;
+[2021/05/14 21:28:30]
+people:2, cars:4, motors:3;
+[2021/05/14 21:28:30]
+people:2, cars:4, motors:3;
+[2021/05/14 21:28:30]
+people:2, cars:5, motors:4;
+[2021/05/14 21:28:30]
+people:2, cars:5, motors:4;
+[2021/05/14 21:28:31]
+people:2, cars:5, motors:4;
+[2021/05/14 21:28:31]
+people:0, cars:4, motors:3;
+[2021/05/14 21:28:31]
+people:0, cars:4, motors:3;
+[2021/05/14 21:28:31]
+people:0, cars:4, motors:3;
+[2021/05/14 21:28:31]
+people:0, cars:3, motors:6;
+[2021/05/14 21:28:31]
+people:0, cars:3, motors:6;
+[2021/05/14 21:28:31]
+people:0, cars:3, motors:6;
+[2021/05/14 21:28:32]
+people:1, cars:4, motors:3;
+[2021/05/14 21:28:32]
+people:1, cars:4, motors:3;
+[2021/05/14 21:28:32]
+people:1, cars:4, motors:3;
+[2021/05/14 21:28:32]
+people:1, cars:4, motors:3;
+[2021/05/14 21:28:32]
+people:0, cars:5, motors:5;
+[2021/05/14 21:28:32]
+people:0, cars:5, motors:5;
+[2021/05/14 21:28:33]
+people:0, cars:5, motors:5;
+[2021/05/14 21:28:33]
+people:1, cars:4, motors:6;
+[2021/05/14 21:28:33]
+people:1, cars:4, motors:6;
+[2021/05/14 21:28:33]
+people:1, cars:4, motors:6;
+[2021/05/14 21:28:33]
+people:1, cars:3, motors:5;
+[2021/05/14 21:28:33]
+people:1, cars:3, motors:5;
+[2021/05/14 21:28:34]
+people:1, cars:3, motors:5;
+[2021/05/14 21:28:34]
+people:1, cars:4, motors:5;
+[2021/05/14 21:28:34]
+people:1, cars:4, motors:5;
+[2021/05/14 21:28:34]
+people:1, cars:4, motors:5;
+[2021/05/14 21:28:34]
+people:0, cars:6, motors:5;
+[2021/05/14 21:28:34]
+people:0, cars:6, motors:5;
+[2021/05/14 21:28:35]
+people:0, cars:6, motors:5;
+[2021/05/14 21:28:35]
+people:0, cars:6, motors:4;
+[2021/05/14 21:28:35]
+people:0, cars:6, motors:4;
+[2021/05/14 21:28:35]
+people:0, cars:6, motors:4;
+[2021/05/14 21:28:35]
+people:1, cars:4, motors:5;
+[2021/05/14 21:28:35]
+people:1, cars:4, motors:5;
+[2021/05/14 21:28:36]
+people:1, cars:4, motors:5;
+[2021/05/14 21:28:36]
+people:0, cars:3, motors:3;
+[2021/05/14 21:28:36]
+people:0, cars:3, motors:3;
+[2021/05/14 21:28:36]
+people:0, cars:3, motors:3;
+[2021/05/14 21:28:36]
+people:1, cars:4, motors:3;
+[2021/05/14 21:28:36]
+people:1, cars:4, motors:3;
+[2021/05/14 21:28:37]
+people:1, cars:4, motors:3;
+[2021/05/14 21:28:37]
+people:0, cars:3, motors:5;
+[2021/05/14 21:28:37]
+people:0, cars:3, motors:5;
+[2021/05/14 21:28:37]
+people:0, cars:3, motors:5;
+[2021/05/14 21:28:37]
+people:5, cars:7, motors:1;
+1人闯红灯;
+[2021/05/14 21:28:49]
+people:3, cars:13, motors:2;
+2人闯红灯;
+[2021/05/14 21:28:49]
+people:3, cars:13, motors:2;
+2人闯红灯;
+[2021/05/14 21:28:50]
+people:3, cars:13, motors:2;
+2人闯红灯;
+[2021/05/14 21:28:50]
+people:2, cars:15, motors:2;
+[2021/05/14 21:28:50]
+people:2, cars:15, motors:2;
+[2021/05/14 21:28:50]
+people:2, cars:15, motors:2;
+[2021/05/14 21:28:50]
+people:1, cars:13, motors:3;
+[2021/05/14 21:28:50]
+people:1, cars:13, motors:3;
+[2021/05/14 21:28:51]
+people:1, cars:13, motors:3;
+[2021/05/14 21:28:51]
+people:2, cars:11, motors:2;
+[2021/05/14 21:28:51]
+people:2, cars:11, motors:2;
+[2021/05/14 21:28:51]
+people:2, cars:11, motors:2;
+[2021/05/14 21:28:51]
+people:1, cars:12, motors:1;
+[2021/05/14 21:28:51]
+people:1, cars:12, motors:1;
+[2021/05/14 21:28:52]
+people:1, cars:12, motors:1;
+[2021/05/14 21:28:52]
+people:1, cars:12, motors:1;
+[2021/05/14 21:35:51]
+people:3, cars:8, motors:1;
+1人闯红灯;
+[2021/05/14 21:35:51]
+people:6, cars:9, motors:2;
+2人闯红灯;
+[2021/05/14 21:35:51]
+people:6, cars:9, motors:2;
+2人闯红灯;
+[2021/05/14 21:35:52]
+people:6, cars:9, motors:2;
+2人闯红灯;
+[2021/05/14 21:35:52]
+people:3, cars:8, motors:2;
+[2021/05/14 21:35:52]
+people:3, cars:8, motors:2;
+[2021/05/14 21:35:52]
+people:3, cars:8, motors:2;
+[2021/05/14 21:35:52]
+people:3, cars:10, motors:1;
+[2021/05/14 21:35:52]
+people:3, cars:10, motors:1;
+[2021/05/14 21:35:52]
+people:3, cars:10, motors:1;
+[2021/05/14 21:35:53]
+people:1, cars:10, motors:1;
+[2021/05/14 21:35:53]
+people:1, cars:10, motors:1;
+[2021/05/14 21:35:53]
+people:1, cars:10, motors:1;
+[2021/05/14 21:35:53]
+people:3, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 21:35:53]
+people:3, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 21:35:53]
+people:3, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 21:35:54]
+people:1, cars:11, motors:3;
+1人闯红灯;
+[2021/05/14 21:35:54]
+people:1, cars:11, motors:3;
+1人闯红灯;
+[2021/05/14 21:35:54]
+people:1, cars:11, motors:3;
+1人闯红灯;
+[2021/05/14 21:35:54]
+people:1, cars:11, motors:3;
+1人闯红灯;
+[2021/05/14 21:35:54]
+people:3, cars:8, motors:2;
+1人闯红灯;
+[2021/05/14 21:35:54]
+people:3, cars:8, motors:2;
+1人闯红灯;
+[2021/05/14 21:35:55]
+people:3, cars:8, motors:2;
+1人闯红灯;
+[2021/05/14 21:35:55]
+people:3, cars:11, motors:3;
+[2021/05/14 21:35:55]
+people:3, cars:11, motors:3;
+[2021/05/14 21:35:55]
+people:3, cars:11, motors:3;
+[2021/05/14 21:35:55]
+people:5, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 21:35:55]
+people:5, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 21:35:56]
+people:5, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 21:35:56]
+people:2, cars:11, motors:2;
+[2021/05/14 21:35:56]
+people:2, cars:11, motors:2;
+[2021/05/14 21:35:56]
+people:2, cars:11, motors:2;
+[2021/05/14 21:35:56]
+people:1, cars:12, motors:2;
+[2021/05/14 21:35:56]
+people:1, cars:12, motors:2;
+[2021/05/14 21:35:56]
+people:1, cars:12, motors:2;
+[2021/05/14 21:35:57]
+people:5, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 21:35:57]
+people:5, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 21:35:57]
+people:5, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 21:35:57]
+people:1, cars:9, motors:3;
+1人闯红灯;
+[2021/05/14 21:35:57]
+people:1, cars:9, motors:3;
+1人闯红灯;
+[2021/05/14 21:35:57]
+people:1, cars:9, motors:3;
+1人闯红灯;
+[2021/05/14 21:35:58]
+people:1, cars:9, motors:3;
+1人闯红灯;
+[2021/05/14 21:35:58]
+people:1, cars:12, motors:4;
+1人闯红灯;
+[2021/05/14 21:35:58]
+people:1, cars:12, motors:4;
+1人闯红灯;
+[2021/05/14 21:35:58]
+people:1, cars:12, motors:4;
+1人闯红灯;
+[2021/05/14 21:35:58]
+people:1, cars:12, motors:2;
+[2021/05/14 21:35:58]
+people:1, cars:12, motors:2;
+[2021/05/14 21:35:59]
+people:1, cars:12, motors:2;
+[2021/05/14 21:35:59]
+people:2, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 21:35:59]
+people:2, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 21:35:59]
+people:2, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 21:35:59]
+people:2, cars:13, motors:5;
+[2021/05/14 21:35:59]
+people:2, cars:13, motors:5;
+[2021/05/14 21:36:00]
+people:2, cars:13, motors:5;
+[2021/05/14 21:36:00]
+people:3, cars:14, motors:2;
+1人闯红灯;
+[2021/05/14 21:36:00]
+people:3, cars:14, motors:2;
+1人闯红灯;
+[2021/05/14 21:36:00]
+people:3, cars:14, motors:2;
+1人闯红灯;
+[2021/05/14 21:36:00]
+people:3, cars:14, motors:2;
+[2021/05/14 21:36:00]
+people:3, cars:14, motors:2;
+[2021/05/14 21:36:00]
+people:3, cars:14, motors:2;
+[2021/05/14 21:36:01]
+people:4, cars:13, motors:3;
+[2021/05/14 21:36:01]
+people:4, cars:13, motors:3;
+[2021/05/14 21:36:01]
+people:4, cars:13, motors:3;
+[2021/05/14 21:36:01]
+people:3, cars:12, motors:2;
+2人闯红灯;
+[2021/05/14 21:36:01]
+people:3, cars:12, motors:2;
+2人闯红灯;
+[2021/05/14 21:36:01]
+people:3, cars:12, motors:2;
+2人闯红灯;
+[2021/05/14 21:36:02]
+people:3, cars:12, motors:2;
+2人闯红灯;
+[2021/05/14 21:36:02]
+people:4, cars:13, motors:3;
+1人闯红灯;
+[2021/05/14 21:36:02]
+people:4, cars:13, motors:3;
+1人闯红灯;
+[2021/05/14 21:36:02]
+people:4, cars:13, motors:3;
+1人闯红灯;
+[2021/05/14 21:36:02]
+people:1, cars:13, motors:3;
+[2021/05/14 21:36:02]
+people:1, cars:13, motors:3;
+[2021/05/14 21:36:03]
+people:1, cars:13, motors:3;
+[2021/05/14 21:36:03]
+people:2, cars:11, motors:2;
+[2021/05/14 21:36:03]
+people:2, cars:11, motors:2;
+[2021/05/14 21:36:03]
+people:2, cars:11, motors:2;
+[2021/05/14 21:36:03]
+people:3, cars:14, motors:1;
+2人闯红灯;
+[2021/05/14 21:36:03]
+people:3, cars:14, motors:1;
+2人闯红灯;
+[2021/05/14 21:36:04]
+people:3, cars:14, motors:1;
+2人闯红灯;
+[2021/05/14 21:36:04]
+people:3, cars:14, motors:1;
+1人闯红灯;
+[2021/05/14 21:36:04]
+people:3, cars:14, motors:1;
+1人闯红灯;
+[2021/05/14 21:36:04]
+people:3, cars:14, motors:1;
+1人闯红灯;
+[2021/05/14 21:36:04]
+people:4, cars:11, motors:1;
+1人闯红灯;
+[2021/05/14 21:36:04]
+people:4, cars:11, motors:1;
+1人闯红灯;
+[2021/05/14 21:36:04]
+people:4, cars:11, motors:1;
+1人闯红灯;
+[2021/05/14 21:36:05]
+people:3, cars:12, motors:3;
+[2021/05/14 21:36:05]
+people:3, cars:12, motors:3;
+[2021/05/14 21:36:05]
+people:3, cars:12, motors:3;
+[2021/05/14 21:36:05]
+people:2, cars:13, motors:1;
+[2021/05/14 21:36:05]
+people:2, cars:13, motors:1;
+[2021/05/14 21:36:05]
+people:2, cars:13, motors:1;
+[2021/05/14 21:36:06]
+people:1, cars:14, motors:1;
+[2021/05/14 21:36:06]
+people:1, cars:14, motors:1;
+[2021/05/14 21:36:06]
+people:1, cars:14, motors:1;
+[2021/05/14 21:36:06]
+people:1, cars:14, motors:1;
+[2021/05/14 21:36:06]
+people:1, cars:13, motors:2;
+[2021/05/14 21:36:06]
+people:1, cars:13, motors:2;
+[2021/05/14 21:36:07]
+people:1, cars:13, motors:2;
+[2021/05/14 21:36:07]
+people:0, cars:13, motors:2;
+[2021/05/14 21:36:07]
+people:0, cars:13, motors:2;
+[2021/05/14 21:36:07]
+people:0, cars:13, motors:2;
+[2021/05/14 21:36:07]
+people:1, cars:13, motors:3;
+[2021/05/14 21:36:07]
+people:1, cars:13, motors:3;
+[2021/05/14 21:36:08]
+people:1, cars:13, motors:3;
+[2021/05/14 21:36:08]
+people:1, cars:10, motors:4;
+[2021/05/14 21:36:08]
+people:1, cars:10, motors:4;
+[2021/05/14 21:36:08]
+people:1, cars:10, motors:4;
+[2021/05/14 21:36:08]
+people:1, cars:8, motors:5;
+[2021/05/14 21:36:08]
+people:1, cars:8, motors:5;
+[2021/05/14 21:36:08]
+people:1, cars:8, motors:5;
+[2021/05/14 21:36:09]
+people:1, cars:8, motors:2;
+[2021/05/14 21:36:09]
+people:1, cars:8, motors:2;
+[2021/05/14 21:36:09]
+people:1, cars:8, motors:2;
+[2021/05/14 21:36:09]
+people:0, cars:8, motors:4;
+[2021/05/14 21:36:09]
+people:0, cars:8, motors:4;
+[2021/05/14 21:36:09]
+people:0, cars:8, motors:4;
+[2021/05/14 21:36:10]
+people:1, cars:7, motors:4;
+[2021/05/14 21:36:13]
+people:1, cars:10, motors:1;
+[2021/05/14 21:36:13]
+people:0, cars:10, motors:4;
+[2021/05/14 21:36:13]
+people:0, cars:10, motors:4;
+[2021/05/14 21:36:13]
+people:0, cars:10, motors:4;
+[2021/05/14 21:36:14]
+people:0, cars:10, motors:2;
+[2021/05/14 21:36:14]
+people:0, cars:10, motors:2;
+[2021/05/14 21:36:14]
+people:0, cars:10, motors:2;
+[2021/05/14 21:36:14]
+people:0, cars:10, motors:2;
+[2021/05/14 21:36:14]
+people:0, cars:9, motors:3;
+[2021/05/14 21:36:14]
+people:0, cars:9, motors:3;
+[2021/05/14 21:36:15]
+people:0, cars:9, motors:3;
+[2021/05/14 21:36:15]
+people:0, cars:10, motors:4;
+[2021/05/14 21:36:15]
+people:0, cars:10, motors:4;
+[2021/05/14 21:36:15]
+people:0, cars:10, motors:4;
+[2021/05/14 21:36:15]
+people:0, cars:9, motors:4;
+[2021/05/14 21:36:15]
+people:0, cars:9, motors:4;
+[2021/05/14 21:36:16]
+people:0, cars:9, motors:4;
+[2021/05/14 21:36:16]
+people:0, cars:10, motors:5;
+[2021/05/14 21:36:16]
+people:0, cars:10, motors:5;
+[2021/05/14 21:36:16]
+people:0, cars:10, motors:5;
+[2021/05/14 21:36:16]
+people:1, cars:10, motors:5;
+[2021/05/14 21:36:16]
+people:1, cars:10, motors:5;
+[2021/05/14 21:36:17]
+people:1, cars:10, motors:5;
+[2021/05/14 21:36:17]
+people:1, cars:7, motors:3;
+[2021/05/14 21:36:17]
+people:1, cars:7, motors:3;
+[2021/05/14 21:36:17]
+people:1, cars:7, motors:3;
+[2021/05/14 21:36:17]
+people:1, cars:8, motors:2;
+[2021/05/14 21:36:17]
+people:1, cars:8, motors:2;
+[2021/05/14 21:36:17]
+people:1, cars:8, motors:2;
+[2021/05/14 21:36:18]
+people:1, cars:7, motors:3;
+[2021/05/14 21:36:18]
+people:1, cars:7, motors:3;
+[2021/05/14 21:36:18]
+people:1, cars:7, motors:3;
+[2021/05/14 21:36:18]
+people:1, cars:7, motors:3;
+[2021/05/14 21:36:18]
+people:1, cars:7, motors:4;
+[2021/05/14 21:36:18]
+people:1, cars:7, motors:4;
+[2021/05/14 21:36:19]
+people:1, cars:7, motors:4;
+[2021/05/14 21:36:19]
+people:1, cars:9, motors:2;
+[2021/05/14 21:36:19]
+people:1, cars:9, motors:2;
+[2021/05/14 21:36:19]
+people:1, cars:9, motors:2;
+[2021/05/14 21:36:19]
+people:1, cars:7, motors:1;
+[2021/05/14 21:36:19]
+people:1, cars:7, motors:1;
+[2021/05/14 21:37:00]
+people:0, cars:8, motors:5;
+[2021/05/14 21:37:00]
+people:1, cars:8, motors:4;
+[2021/05/14 21:37:01]
+people:1, cars:8, motors:4;
+[2021/05/14 21:37:01]
+people:1, cars:8, motors:3;
+[2021/05/14 21:37:01]
+people:1, cars:8, motors:3;
+[2021/05/14 21:37:01]
+people:1, cars:9, motors:3;
+[2021/05/14 21:37:02]
+people:1, cars:8, motors:2;
+[2021/05/14 21:37:02]
+people:1, cars:8, motors:2;
+[2021/05/14 21:37:02]
+people:1, cars:7, motors:2;
+[2021/05/14 21:37:03]
+people:1, cars:7, motors:2;
+[2021/05/14 21:37:03]
+people:1, cars:7, motors:2;
+[2021/05/14 21:37:03]
+people:1, cars:7, motors:4;
+[2021/05/14 21:37:04]
+people:0, cars:0, motors:0;
+[2021/05/14 21:37:04]
+people:0, cars:0, motors:0;
+[2021/05/14 21:37:05]
+people:0, cars:0, motors:0;
+[2021/05/14 21:37:05]
+people:1, cars:7, motors:4;
+[2021/05/14 21:37:05]
+people:1, cars:7, motors:4;
+[2021/05/14 21:37:06]
+people:0, cars:0, motors:0;
+[2021/05/14 21:37:06]
+people:0, cars:0, motors:0;
+[2021/05/14 21:37:06]
+people:0, cars:0, motors:0;
+[2021/05/14 21:37:07]
+people:0, cars:7, motors:5;
+[2021/05/14 21:37:07]
+people:0, cars:0, motors:0;
+[2021/05/14 21:37:07]
+people:0, cars:0, motors:0;
+[2021/05/14 21:37:07]
+people:0, cars:0, motors:0;
+[2021/05/14 21:37:07]
+people:1, cars:7, motors:3;
+[2021/05/14 21:37:07]
+people:1, cars:7, motors:3;
+[2021/05/14 21:37:08]
+people:1, cars:7, motors:3;
+[2021/05/14 21:37:08]
+people:1, cars:7, motors:3;
+[2021/05/14 21:37:08]
+people:1, cars:7, motors:3;
+[2021/05/14 21:37:08]
+people:1, cars:7, motors:3;
+[2021/05/14 21:37:08]
+people:1, cars:7, motors:3;
+[2021/05/14 21:37:08]
+people:0, cars:9, motors:3;
+[2021/05/14 21:37:09]
+people:0, cars:9, motors:3;
+[2021/05/14 21:37:09]
+people:0, cars:9, motors:3;
+[2021/05/14 21:37:09]
+people:0, cars:7, motors:3;
+[2021/05/14 21:37:09]
+people:0, cars:7, motors:3;
+[2021/05/14 21:37:09]
+people:0, cars:7, motors:3;
+[2021/05/14 21:37:09]
+people:0, cars:6, motors:3;
+[2021/05/14 21:37:10]
+people:0, cars:6, motors:3;
+[2021/05/14 21:37:10]
+people:0, cars:6, motors:3;
+[2021/05/14 21:37:10]
+people:0, cars:6, motors:6;
+[2021/05/14 21:37:10]
+people:0, cars:6, motors:6;
+[2021/05/14 21:37:10]
+people:0, cars:6, motors:6;
+[2021/05/14 21:37:10]
+people:1, cars:5, motors:5;
+[2021/05/14 21:37:11]
+people:1, cars:5, motors:5;
+[2021/05/14 21:37:11]
+people:1, cars:5, motors:5;
+[2021/05/14 21:37:11]
+people:2, cars:5, motors:4;
+[2021/05/14 21:37:11]
+people:2, cars:5, motors:4;
+[2021/05/14 21:37:11]
+people:2, cars:5, motors:4;
+[2021/05/14 21:37:11]
+people:1, cars:3, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:11]
+people:1, cars:3, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:12]
+people:1, cars:3, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:12]
+people:1, cars:3, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:12]
+people:0, cars:4, motors:5;
+[2021/05/14 21:37:12]
+people:0, cars:4, motors:5;
+[2021/05/14 21:37:12]
+people:0, cars:4, motors:5;
+[2021/05/14 21:37:12]
+people:0, cars:6, motors:4;
+[2021/05/14 21:37:13]
+people:0, cars:6, motors:4;
+[2021/05/14 21:37:13]
+people:0, cars:6, motors:4;
+[2021/05/14 21:37:13]
+people:0, cars:6, motors:4;
+[2021/05/14 21:37:13]
+people:0, cars:6, motors:4;
+[2021/05/14 21:37:13]
+people:0, cars:6, motors:4;
+[2021/05/14 21:37:13]
+people:0, cars:5, motors:4;
+[2021/05/14 21:37:14]
+people:0, cars:5, motors:4;
+[2021/05/14 21:37:14]
+people:0, cars:5, motors:4;
+[2021/05/14 21:37:14]
+people:1, cars:3, motors:3;
+[2021/05/14 21:37:14]
+people:1, cars:3, motors:3;
+[2021/05/14 21:37:14]
+people:1, cars:3, motors:3;
+[2021/05/14 21:37:14]
+people:0, cars:4, motors:4;
+[2021/05/14 21:37:15]
+people:0, cars:4, motors:4;
+[2021/05/14 21:37:15]
+people:0, cars:4, motors:4;
+[2021/05/14 21:37:15]
+people:1, cars:4, motors:5;
+[2021/05/14 21:37:15]
+people:1, cars:4, motors:5;
+[2021/05/14 21:37:15]
+people:1, cars:4, motors:5;
+[2021/05/14 21:37:15]
+people:1, cars:4, motors:4;
+[2021/05/14 21:37:16]
+people:1, cars:4, motors:4;
+[2021/05/14 21:37:16]
+people:1, cars:4, motors:4;
+[2021/05/14 21:37:16]
+people:6, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 21:37:16]
+people:6, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 21:37:16]
+people:6, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 21:37:16]
+people:4, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 21:37:16]
+people:4, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 21:37:17]
+people:4, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 21:37:17]
+people:4, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 21:37:17]
+people:5, cars:8, motors:2;
+1人闯红灯;
+[2021/05/14 21:37:17]
+people:5, cars:8, motors:2;
+1人闯红灯;
+[2021/05/14 21:37:17]
+people:5, cars:8, motors:2;
+1人闯红灯;
+[2021/05/14 21:37:17]
+people:4, cars:8, motors:2;
+[2021/05/14 21:37:18]
+people:4, cars:8, motors:2;
+[2021/05/14 21:37:18]
+people:4, cars:8, motors:2;
+[2021/05/14 21:37:18]
+people:3, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 21:37:18]
+people:3, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 21:37:18]
+people:3, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 21:37:18]
+people:4, cars:9, motors:1;
+[2021/05/14 21:37:19]
+people:4, cars:9, motors:1;
+[2021/05/14 21:37:19]
+people:4, cars:9, motors:1;
+[2021/05/14 21:37:19]
+people:2, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 21:37:19]
+people:2, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 21:37:19]
+people:2, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 21:37:19]
+people:2, cars:10, motors:1;
+[2021/05/14 21:37:20]
+people:2, cars:10, motors:1;
+[2021/05/14 21:37:20]
+people:2, cars:10, motors:1;
+[2021/05/14 21:37:20]
+people:2, cars:12, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:20]
+people:2, cars:12, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:20]
+people:2, cars:12, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:20]
+people:1, cars:9, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:21]
+people:1, cars:9, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:21]
+people:1, cars:9, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:21]
+people:2, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:21]
+people:2, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:21]
+people:2, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:21]
+people:2, cars:10, motors:2;
+[2021/05/14 21:37:22]
+people:2, cars:10, motors:2;
+[2021/05/14 21:37:22]
+people:2, cars:10, motors:2;
+[2021/05/14 21:37:22]
+people:2, cars:11, motors:2;
+[2021/05/14 21:37:22]
+people:2, cars:11, motors:2;
+[2021/05/14 21:37:22]
+people:2, cars:11, motors:2;
+[2021/05/14 21:37:22]
+people:3, cars:12, motors:2;
+1人闯红灯;
+[2021/05/14 21:37:23]
+people:3, cars:12, motors:2;
+1人闯红灯;
+[2021/05/14 21:37:23]
+people:3, cars:12, motors:2;
+1人闯红灯;
+[2021/05/14 21:37:23]
+people:3, cars:12, motors:3;
+[2021/05/14 21:37:23]
+people:3, cars:12, motors:3;
+[2021/05/14 21:37:23]
+people:3, cars:12, motors:3;
+[2021/05/14 21:37:23]
+people:2, cars:13, motors:3;
+[2021/05/14 21:37:24]
+people:2, cars:13, motors:3;
+[2021/05/14 21:37:24]
+people:2, cars:13, motors:3;
+[2021/05/14 21:37:24]
+people:1, cars:11, motors:3;
+[2021/05/14 21:37:24]
+people:1, cars:11, motors:3;
+[2021/05/14 21:37:24]
+people:1, cars:11, motors:3;
+[2021/05/14 21:37:24]
+people:1, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 21:37:25]
+people:1, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 21:37:25]
+people:1, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 21:37:25]
+people:2, cars:12, motors:2;
+[2021/05/14 21:37:25]
+people:2, cars:12, motors:2;
+[2021/05/14 21:37:25]
+people:2, cars:12, motors:2;
+[2021/05/14 21:37:25]
+people:2, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 21:37:26]
+people:2, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 21:37:26]
+people:2, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 21:37:26]
+people:3, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 21:37:26]
+people:3, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 21:37:26]
+people:3, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 21:37:26]
+people:2, cars:13, motors:2;
+[2021/05/14 21:37:27]
+people:2, cars:13, motors:2;
+[2021/05/14 21:37:27]
+people:2, cars:13, motors:2;
+[2021/05/14 21:37:27]
+people:3, cars:14, motors:2;
+[2021/05/14 21:37:27]
+people:3, cars:14, motors:2;
+[2021/05/14 21:37:27]
+people:3, cars:14, motors:2;
+[2021/05/14 21:37:27]
+people:4, cars:13, motors:3;
+[2021/05/14 21:37:28]
+people:4, cars:13, motors:3;
+[2021/05/14 21:37:28]
+people:4, cars:13, motors:3;
+[2021/05/14 21:37:28]
+people:4, cars:13, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:28]
+people:4, cars:13, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:28]
+people:4, cars:13, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:28]
+people:4, cars:13, motors:3;
+1人闯红灯;
+[2021/05/14 21:37:28]
+people:3, cars:14, motors:2;
+[2021/05/14 21:37:29]
+people:3, cars:14, motors:2;
+[2021/05/14 21:37:29]
+people:3, cars:14, motors:2;
+[2021/05/14 21:37:29]
+people:2, cars:12, motors:2;
+[2021/05/14 21:37:29]
+people:2, cars:12, motors:2;
+[2021/05/14 21:37:29]
+people:2, cars:12, motors:2;
+[2021/05/14 21:37:29]
+people:2, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 21:37:30]
+people:2, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 21:37:30]
+people:2, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 21:37:30]
+people:3, cars:12, motors:1;
+1人闯红灯;
+[2021/05/14 21:37:30]
+people:2, cars:10, motors:1;
+[2021/05/14 21:37:31]
+people:2, cars:10, motors:1;
+[2021/05/14 21:37:31]
+people:2, cars:10, motors:1;
+[2021/05/14 21:37:31]
+people:3, cars:14, motors:1;
+[2021/05/14 21:37:31]
+people:3, cars:14, motors:1;
+[2021/05/14 21:37:31]
+people:3, cars:14, motors:1;
+[2021/05/14 21:37:31]
+people:3, cars:14, motors:1;
+[2021/05/14 21:37:32]
+people:3, cars:16, motors:1;
+[2021/05/14 21:37:32]
+people:1, cars:12, motors:2;
+[2021/05/14 21:37:32]
+people:1, cars:12, motors:2;
+[2021/05/14 21:37:32]
+people:1, cars:12, motors:2;
+[2021/05/14 21:37:32]
+people:2, cars:13, motors:2;
+[2021/05/14 21:37:33]
+people:2, cars:13, motors:2;
+[2021/05/14 21:37:33]
+people:1, cars:13, motors:1;
+[2021/05/14 21:37:33]
+people:1, cars:13, motors:1;
+[2021/05/14 21:37:33]
+people:1, cars:13, motors:1;
+[2021/05/14 21:37:33]
+people:0, cars:11, motors:2;
+[2021/05/14 21:37:34]
+people:0, cars:11, motors:2;
+[2021/05/14 21:37:34]
+people:1, cars:10, motors:3;
+[2021/05/14 21:37:34]
+people:1, cars:10, motors:3;
+[2021/05/14 21:37:34]
+people:1, cars:10, motors:3;
+[2021/05/14 21:37:34]
+people:3, cars:11, motors:3;
+[2021/05/14 21:37:35]
+people:3, cars:11, motors:3;
+[2021/05/14 21:37:35]
+people:1, cars:8, motors:3;
+[2021/05/14 21:37:35]
+people:1, cars:8, motors:3;
+[2021/05/14 21:37:35]
+people:1, cars:8, motors:3;
+[2021/05/14 21:37:36]
+people:1, cars:8, motors:4;
+[2021/05/14 21:37:36]
+people:0, cars:7, motors:4;
+[2021/05/14 21:37:37]
+people:0, cars:7, motors:4;
+[2021/05/14 21:37:37]
+people:0, cars:7, motors:4;
+[2021/05/14 21:37:37]
+people:1, cars:7, motors:4;
+[2021/05/14 21:37:37]
+people:1, cars:7, motors:4;
+[2021/05/14 21:37:37]
+people:0, cars:8, motors:4;
+[2021/05/14 21:37:38]
+people:0, cars:8, motors:4;
+[2021/05/14 21:37:38]
+people:0, cars:8, motors:4;
+[2021/05/14 21:37:39]
+people:0, cars:11, motors:1;
+[2021/05/14 21:37:39]
+people:0, cars:11, motors:1;
+[2021/05/14 21:37:39]
+people:1, cars:9, motors:1;
+[2021/05/14 21:37:39]
+people:1, cars:9, motors:1;
+[2021/05/14 21:37:39]
+people:1, cars:9, motors:1;
+[2021/05/14 21:37:40]
+people:0, cars:10, motors:2;
+[2021/05/14 21:37:40]
+people:0, cars:10, motors:2;
+[2021/05/14 21:37:40]
+people:0, cars:10, motors:2;
+[2021/05/14 21:37:40]
+people:0, cars:9, motors:4;
+[2021/05/14 21:37:41]
+people:0, cars:10, motors:2;
+[2021/05/14 21:37:41]
+people:0, cars:10, motors:2;
+[2021/05/14 21:37:41]
+people:0, cars:9, motors:3;
+[2021/05/14 21:37:41]
+people:0, cars:9, motors:3;
+[2021/05/14 21:37:41]
+people:0, cars:9, motors:3;
+[2021/05/14 21:37:42]
+people:0, cars:10, motors:4;
+[2021/05/14 21:37:42]
+people:0, cars:10, motors:4;
+[2021/05/14 21:37:42]
+people:0, cars:10, motors:4;
+[2021/05/14 21:37:42]
+people:0, cars:8, motors:4;
+[2021/05/14 21:37:42]
+people:0, cars:8, motors:4;
+[2021/05/14 21:37:43]
+people:1, cars:9, motors:5;
+[2021/05/14 21:37:43]
+people:1, cars:9, motors:5;
+[2021/05/14 21:37:43]
+people:1, cars:9, motors:5;
+[2021/05/14 21:37:44]
+people:1, cars:8, motors:5;
+[2021/05/14 21:37:44]
+people:1, cars:8, motors:5;
+[2021/05/14 21:37:44]
+people:1, cars:8, motors:5;
+[2021/05/14 21:37:44]
+people:1, cars:9, motors:2;
+[2021/05/14 21:37:44]
+people:1, cars:9, motors:2;
+[2021/05/14 21:37:44]
+people:1, cars:9, motors:2;
+[2021/05/14 21:37:45]
+people:1, cars:7, motors:4;
+[2021/05/14 21:37:45]
+people:1, cars:7, motors:4;
+[2021/05/14 21:37:45]
+people:1, cars:7, motors:4;
+[2021/05/14 21:37:45]
+people:1, cars:10, motors:3;
+[2021/05/14 21:37:46]
+people:1, cars:10, motors:3;
+[2021/05/14 21:37:46]
+people:1, cars:10, motors:3;
+[2021/05/14 21:37:46]
+people:0, cars:8, motors:3;
+[2021/05/14 21:37:46]
+people:0, cars:8, motors:3;
+[2021/05/14 21:37:46]
+people:0, cars:8, motors:3;
+[2021/05/14 21:37:47]
+people:1, cars:7, motors:3;
+[2021/05/14 21:37:47]
+people:1, cars:7, motors:3;
+[2021/05/14 21:37:47]
+people:0, cars:7, motors:5;
+[2021/05/14 21:37:47]
+people:0, cars:7, motors:5;
+[2021/05/14 21:37:47]
+people:0, cars:7, motors:5;
+[2021/05/14 21:37:48]
+people:0, cars:7, motors:4;
+[2021/05/14 21:37:48]
+people:0, cars:7, motors:4;
+[2021/05/14 21:37:48]
+people:0, cars:7, motors:4;
+[2021/05/14 21:37:48]
+people:0, cars:6, motors:3;
+[2021/05/14 21:37:48]
+people:0, cars:6, motors:3;
+[2021/05/14 21:37:49]
+people:0, cars:5, motors:2;
+[2021/05/14 21:37:49]
+people:0, cars:5, motors:2;
+[2021/05/14 21:37:49]
+people:0, cars:5, motors:2;
+[2021/05/14 21:37:49]
+people:1, cars:8, motors:2;
+[2021/05/14 21:37:49]
+people:1, cars:8, motors:2;
+[2021/05/14 21:37:49]
+people:1, cars:8, motors:2;
+[2021/05/14 21:37:50]
+people:0, cars:6, motors:5;
+[2021/05/14 21:37:50]
+people:0, cars:6, motors:5;
+[2021/05/14 21:37:50]
+people:1, cars:6, motors:3;
+[2021/05/14 21:37:50]
+people:1, cars:6, motors:3;
+[2021/05/14 21:37:50]
+people:1, cars:6, motors:3;
+[2021/05/14 21:37:50]
+people:1, cars:4, motors:3;
+[2021/05/14 21:37:51]
+people:1, cars:4, motors:3;
+[2021/05/14 21:37:51]
+people:1, cars:4, motors:3;
+[2021/05/14 21:37:51]
+people:1, cars:6, motors:4;
+[2021/05/14 21:37:51]
+people:1, cars:6, motors:4;
+[2021/05/14 21:37:51]
+people:1, cars:6, motors:4;
+[2021/05/14 21:37:52]
+people:1, cars:4, motors:4;
+[2021/05/14 21:37:52]
+people:2, cars:4, motors:5;
+1人闯红灯;
+[2021/05/14 21:37:52]
+people:2, cars:4, motors:5;
+1人闯红灯;
+[2021/05/14 21:37:52]
+people:2, cars:4, motors:5;
+1人闯红灯;
+[2021/05/14 21:37:52]
+people:1, cars:4, motors:2;
+[2021/05/14 21:37:53]
+people:1, cars:4, motors:2;
+[2021/05/14 21:37:53]
+people:1, cars:4, motors:2;
+[2021/05/14 21:37:53]
+people:1, cars:4, motors:2;
+[2021/05/14 21:37:53]
+people:1, cars:4, motors:2;
+[2021/05/14 21:37:53]
+people:1, cars:4, motors:3;
+[2021/05/14 21:37:54]
+people:1, cars:4, motors:3;
+[2021/05/14 21:37:54]
+people:1, cars:4, motors:3;
+[2021/05/14 21:37:54]
+people:1, cars:4, motors:3;
+[2021/05/14 21:37:54]
+people:1, cars:4, motors:3;
+[2021/05/14 21:37:54]
+people:1, cars:4, motors:3;
+[2021/05/14 21:37:54]
+people:0, cars:5, motors:5;
+[2021/05/14 21:37:55]
+people:0, cars:5, motors:5;
+[2021/05/14 21:37:55]
+people:0, cars:5, motors:5;
+[2021/05/14 21:37:55]
+people:0, cars:4, motors:5;
+[2021/05/14 21:37:55]
+people:0, cars:4, motors:5;
+[2021/05/14 21:37:55]
+people:0, cars:4, motors:5;
+[2021/05/14 21:37:56]
+people:1, cars:4, motors:5;
+[2021/05/14 21:37:56]
+people:1, cars:4, motors:5;
+[2021/05/14 21:37:56]
+people:1, cars:4, motors:5;
+[2021/05/14 21:37:56]
+people:0, cars:6, motors:5;
+[2021/05/14 21:37:56]
+people:0, cars:6, motors:5;
+[2021/05/14 21:37:56]
+people:0, cars:6, motors:5;
+[2021/05/14 21:37:57]
+people:0, cars:5, motors:4;
+[2021/05/14 21:37:57]
+people:0, cars:5, motors:4;
+[2021/05/14 21:37:57]
+people:1, cars:3, motors:3;
+[2021/05/14 21:37:57]
+people:1, cars:3, motors:3;
+[2021/05/14 21:37:57]
+people:1, cars:3, motors:3;
+[2021/05/14 21:37:58]
+people:1, cars:5, motors:2;
+[2021/05/14 21:37:58]
+people:1, cars:5, motors:2;
+[2021/05/14 21:37:58]
+people:1, cars:4, motors:2;
+[2021/05/14 21:37:58]
+people:1, cars:4, motors:2;
+[2021/05/14 21:37:59]
+people:0, cars:3, motors:4;
+[2021/05/14 21:37:59]
+people:5, cars:7, motors:1;
+2人闯红灯;
+[2021/05/14 21:37:59]
+people:5, cars:7, motors:1;
+2人闯红灯;
+[2021/05/14 21:37:59]
+people:5, cars:7, motors:1;
+2人闯红灯;
+[2021/05/14 21:38:00]
+people:6, cars:8, motors:1;
+1人闯红灯;
+[2021/05/14 21:38:00]
+people:6, cars:8, motors:1;
+1人闯红灯;
+[2021/05/14 21:38:00]
+people:6, cars:8, motors:1;
+1人闯红灯;
+[2021/05/14 21:38:00]
+people:4, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 21:38:00]
+people:4, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 21:38:01]
+people:3, cars:7, motors:2;
+1人闯红灯;
+[2021/05/14 21:38:01]
+people:3, cars:7, motors:2;
+1人闯红灯;
+[2021/05/14 21:38:01]
+people:3, cars:7, motors:2;
+1人闯红灯;
+[2021/05/14 21:38:02]
+people:4, cars:9, motors:2;
+[2021/05/14 22:12:25]
+people:1, cars:6, motors:4;
+[2021/05/14 22:12:26]
+people:2, cars:3, motors:2;
+[2021/05/14 22:12:26]
+people:1, cars:4, motors:5;
+[2021/05/14 22:12:27]
+people:1, cars:4, motors:3;
+[2021/05/14 22:12:27]
+people:0, cars:5, motors:5;
+[2021/05/14 22:12:28]
+people:0, cars:5, motors:5;
+[2021/05/14 22:12:28]
+people:1, cars:3, motors:5;
+[2021/05/14 22:12:29]
+people:0, cars:6, motors:5;
+[2021/05/14 22:12:29]
+people:0, cars:7, motors:5;
+[2021/05/14 22:12:30]
+people:0, cars:6, motors:4;
+[2021/05/14 22:12:30]
+people:1, cars:4, motors:3;
+[2021/05/14 22:12:31]
+people:0, cars:4, motors:2;
+[2021/05/14 22:12:31]
+people:1, cars:4, motors:4;
+[2021/05/14 22:14:26]
+people:0, cars:0, motors:0;
+[2021/05/14 22:14:26]
+people:0, cars:0, motors:0;
+[2021/05/14 22:14:27]
+people:0, cars:0, motors:0;
+[2021/05/14 22:14:27]
+people:0, cars:0, motors:0;
+[2021/05/14 22:14:28]
+people:0, cars:0, motors:0;
+[2021/05/14 22:14:28]
+people:0, cars:0, motors:0;
+[2021/05/14 22:14:29]
+people:0, cars:0, motors:0;
+[2021/05/14 22:14:29]
+people:0, cars:0, motors:0;
+[2021/05/14 22:14:30]
+people:0, cars:0, motors:0;
+[2021/05/14 22:14:30]
+people:0, cars:0, motors:0;
+[2021/05/14 22:14:31]
+people:0, cars:5, motors:3;
+[2021/05/14 22:14:31]
+people:0, cars:6, motors:2;
+[2021/05/14 22:14:32]
+people:0, cars:8, motors:4;
+[2021/05/14 22:14:32]
+people:0, cars:6, motors:5;
+[2021/05/14 22:14:33]
+people:1, cars:5, motors:4;
+[2021/05/14 22:14:33]
+people:1, cars:5, motors:4;
+[2021/05/14 22:14:34]
+people:1, cars:6, motors:6;
+[2021/05/14 22:14:34]
+people:1, cars:4, motors:4;
+[2021/05/14 22:14:35]
+people:2, cars:3, motors:4;
+1人闯红灯;
+[2021/05/14 22:14:35]
+people:1, cars:5, motors:4;
+[2021/05/14 22:14:36]
+people:0, cars:3, motors:5;
+[2021/05/14 22:14:36]
+people:1, cars:3, motors:3;
+1人闯红灯;
+[2021/05/14 22:22:10]
+people:0, cars:0, motors:0;
+[2021/05/14 22:22:10]
+people:0, cars:0, motors:0;
+[2021/05/14 22:22:11]
+people:0, cars:0, motors:0;
+[2021/05/14 22:22:11]
+people:0, cars:0, motors:0;
+[2021/05/14 22:22:12]
+people:0, cars:0, motors:0;
+[2021/05/14 22:22:12]
+people:0, cars:0, motors:0;
+[2021/05/14 22:22:13]
+people:0, cars:0, motors:0;
+[2021/05/14 22:22:13]
+people:0, cars:0, motors:0;
+[2021/05/14 22:22:14]
+people:1, cars:12, motors:5;
+[2021/05/14 22:22:14]
+people:0, cars:7, motors:4;
+[2021/05/14 22:22:15]
+people:1, cars:7, motors:4;
+[2021/05/14 22:22:15]
+people:1, cars:8, motors:3;
+[2021/05/14 22:22:16]
+people:0, cars:11, motors:2;
+[2021/05/14 22:22:16]
+people:0, cars:11, motors:1;
+[2021/05/14 22:22:17]
+people:0, cars:9, motors:1;
+[2021/05/14 22:22:17]
+people:1, cars:11, motors:2;
+[2021/05/14 22:22:18]
+people:1, cars:10, motors:2;
+[2021/05/14 22:22:18]
+people:0, cars:10, motors:3;
+[2021/05/14 22:22:19]
+people:0, cars:9, motors:4;
+[2021/05/14 22:22:19]
+people:0, cars:8, motors:3;
+[2021/05/14 22:22:20]
+people:0, cars:10, motors:4;
+[2021/05/14 22:22:20]
+people:0, cars:9, motors:4;
+[2021/05/14 22:22:21]
+people:0, cars:10, motors:5;
+[2021/05/14 22:22:21]
+people:1, cars:9, motors:4;
+[2021/05/14 22:22:22]
+people:1, cars:8, motors:3;
+[2021/05/14 22:22:22]
+people:1, cars:7, motors:2;
+[2021/05/14 22:22:23]
+people:1, cars:7, motors:2;
+[2021/05/14 22:22:23]
+people:1, cars:7, motors:4;
+[2021/05/14 22:22:24]
+people:1, cars:7, motors:3;
+[2021/05/14 22:22:24]
+people:1, cars:9, motors:3;
+[2021/05/14 22:22:25]
+people:0, cars:8, motors:3;
+[2021/05/14 22:22:25]
+people:0, cars:8, motors:3;
+[2021/05/14 22:22:26]
+people:0, cars:7, motors:3;
+[2021/05/14 22:22:26]
+people:0, cars:5, motors:3;
+[2021/05/14 22:22:27]
+people:0, cars:6, motors:2;
+[2021/05/14 22:22:27]
+people:0, cars:8, motors:4;
+[2021/05/14 22:22:28]
+people:0, cars:6, motors:6;
+[2021/05/14 22:22:28]
+people:1, cars:6, motors:3;
+[2021/05/14 22:22:29]
+people:1, cars:4, motors:4;
+[2021/05/14 22:22:29]
+people:1, cars:5, motors:5;
+[2021/05/14 22:22:30]
+people:2, cars:5, motors:4;
+[2021/05/14 22:22:30]
+people:2, cars:4, motors:5;
+1人闯红灯;
+[2021/05/14 22:22:31]
+people:2, cars:5, motors:2;
+[2021/05/14 22:22:31]
+people:0, cars:3, motors:5;
+[2021/05/14 22:22:32]
+people:1, cars:4, motors:3;
+[2021/05/14 22:22:32]
+people:0, cars:5, motors:5;
+[2021/05/14 22:22:33]
+people:0, cars:4, motors:5;
+[2021/05/14 22:22:33]
+people:1, cars:3, motors:5;
+[2021/05/14 22:22:34]
+people:1, cars:5, motors:5;
+[2021/05/14 22:22:34]
+people:0, cars:5, motors:6;
+[2021/05/14 22:22:35]
+people:0, cars:5, motors:5;
+[2021/05/14 22:22:35]
+people:1, cars:4, motors:3;
+[2021/05/14 22:22:36]
+people:0, cars:3, motors:3;
+[2021/05/14 22:22:36]
+people:1, cars:4, motors:5;
+[2021/05/14 22:22:37]
+people:1, cars:3, motors:4;
+[2021/05/14 22:22:37]
+people:5, cars:7, motors:1;
+2人闯红灯;
+[2021/05/14 22:22:38]
+people:5, cars:9, motors:1;
+1人闯红灯;
+[2021/05/14 22:22:38]
+people:5, cars:9, motors:2;
+[2021/05/14 22:22:39]
+people:3, cars:7, motors:2;
+1人闯红灯;
+[2021/05/14 22:22:40]
+people:4, cars:10, motors:2;
+[2021/05/14 22:22:40]
+people:2, cars:9, motors:1;
+1人闯红灯;
+[2021/05/14 22:22:41]
+people:3, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 22:22:41]
+people:1, cars:10, motors:2;
+1人闯红灯;
+[2021/05/14 22:22:42]
+people:2, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 22:22:42]
+people:2, cars:11, motors:3;
+[2021/05/14 22:22:43]
+people:2, cars:12, motors:3;
+[2021/05/14 22:22:43]
+people:4, cars:12, motors:2;
+[2021/05/14 22:22:44]
+people:3, cars:11, motors:2;
+[2021/05/14 22:22:44]
+people:3, cars:12, motors:3;
+[2021/05/14 22:22:45]
+people:5, cars:8, motors:4;
+1人闯红灯;
+[2021/05/14 22:22:45]
+people:1, cars:11, motors:3;
+[2021/05/14 22:22:46]
+people:1, cars:11, motors:4;
+1人闯红灯;
+[2021/05/14 22:24:11]
+people:0, cars:0, motors:0;
+[2021/05/14 22:24:11]
+people:2, cars:11, motors:2;
+[2021/05/14 22:24:12]
+people:2, cars:12, motors:4;
+[2021/05/14 22:24:12]
+people:2, cars:12, motors:2;
+[2021/05/14 22:24:13]
+people:2, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 22:24:13]
+people:2, cars:12, motors:4;
+1人闯红灯;
+[2021/05/14 22:24:14]
+people:2, cars:12, motors:4;
+1人闯红灯;
+[2021/05/14 22:24:14]
+people:2, cars:13, motors:2;
+[2021/05/14 22:24:15]
+people:2, cars:15, motors:3;
+1人闯红灯;
+[2021/05/14 22:24:15]
+people:3, cars:15, motors:2;
+2人闯红灯;
+[2021/05/14 22:24:16]
+people:3, cars:15, motors:3;
+1人闯红灯;
+[2021/05/14 22:24:16]
+people:1, cars:14, motors:3;
+[2021/05/14 22:24:17]
+people:4, cars:15, motors:3;
+[2021/05/14 22:24:17]
+people:2, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 22:24:26]
+people:3, cars:9, motors:1;
+[2021/05/14 22:24:27]
+people:1, cars:9, motors:1;
+[2021/05/14 22:24:57]
+people:2, cars:11, motors:2;
+[2021/05/14 22:24:58]
+people:2, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 22:24:58]
+people:0, cars:0, motors:0;
+[2021/05/14 22:24:59]
+people:0, cars:0, motors:0;
+[2021/05/14 22:24:59]
+people:2, cars:11, motors:2;
+1人闯红灯;
+[2021/05/14 22:25:00]
+people:0, cars:0, motors:0;
+[2021/05/14 22:25:00]
+people:0, cars:0, motors:0;
+[2021/05/14 22:25:01]
+people:2, cars:12, motors:4;
+[2021/05/14 22:25:01]
+people:0, cars:0, motors:0;
+[2021/05/14 22:25:02]
+people:0, cars:0, motors:0;
+[2021/05/14 22:25:02]
+people:2, cars:13, motors:4;
+[2021/05/14 22:25:03]
+people:0, cars:0, motors:0;
+[2021/05/14 22:25:03]
+people:4, cars:11, motors:3;
+[2021/05/14 22:25:04]
+people:3, cars:15, motors:4;
+1人闯红灯;
+[2021/05/14 22:25:04]
+people:3, cars:13, motors:2;
+[2021/05/14 22:25:05]
+people:3, cars:13, motors:2;
+2人闯红灯;
+[2021/05/14 22:25:05]
+people:4, cars:15, motors:3;
+[2021/05/14 22:25:06]
+people:2, cars:10, motors:1;
+[2021/05/14 22:25:06]
+people:2, cars:12, motors:1;
+[2021/05/14 22:25:07]
+people:2, cars:11, motors:2;
+[2021/05/14 22:25:07]
+people:1, cars:12, motors:5;
+[2021/05/14 22:25:08]
+people:0, cars:8, motors:4;
+[2021/05/14 22:25:08]
+people:0, cars:9, motors:3;
+[2021/05/14 22:25:09]
+people:0, cars:11, motors:1;
+[2021/05/14 22:25:09]
+people:1, cars:9, motors:1;
+[2021/05/14 22:25:10]
+people:1, cars:10, motors:2;
+[2021/05/14 22:25:10]
+people:1, cars:11, motors:1;
+[2021/05/14 22:25:11]
+people:0, cars:10, motors:3;
+[2021/05/14 22:25:11]
+people:0, cars:9, motors:4;
+[2021/05/14 22:25:12]
+people:0, cars:8, motors:3;
+[2021/05/14 22:25:12]
+people:0, cars:9, motors:4;
+[2021/05/14 22:25:13]
+people:0, cars:10, motors:5;
+[2021/05/14 22:25:13]
+people:1, cars:10, motors:5;
+[2021/05/14 22:25:14]
+people:0, cars:8, motors:5;
+[2021/05/14 22:25:14]
+people:1, cars:8, motors:2;
+[2021/05/14 22:25:15]
+people:1, cars:7, motors:2;
+[2021/05/14 22:25:15]
+people:1, cars:7, motors:3;
+[2021/05/14 22:25:16]
+people:1, cars:7, motors:5;
+[2021/05/14 22:25:16]
+people:1, cars:7, motors:3;
+[2021/05/14 22:25:17]
+people:0, cars:8, motors:3;
+[2021/05/14 22:25:17]
+people:0, cars:7, motors:3;
+[2021/05/14 22:25:18]
+people:0, cars:7, motors:4;
+[2021/05/14 22:25:18]
+people:0, cars:6, motors:3;
+[2021/05/14 22:25:19]
+people:0, cars:5, motors:2;
+[2021/05/14 22:25:19]
+people:0, cars:5, motors:2;
+[2021/05/14 22:25:20]
+people:0, cars:8, motors:4;
+[2021/05/14 22:25:20]
+people:0, cars:6, motors:4;
+[2021/05/14 22:25:21]
+people:1, cars:6, motors:3;
+[2021/05/14 22:25:21]
+people:1, cars:4, motors:3;
+[2021/05/14 22:25:22]
+people:1, cars:6, motors:6;
+[2021/05/14 22:25:22]
+people:1, cars:4, motors:4;
+[2021/05/14 22:25:23]
+people:2, cars:5, motors:4;
+[2021/05/14 22:25:23]
+people:1, cars:5, motors:2;
+[2021/05/14 22:25:24]
+people:0, cars:3, motors:6;
+[2021/05/14 22:25:24]
+people:1, cars:3, motors:3;
+1人闯红灯;
+[2021/05/14 22:25:25]
+people:1, cars:4, motors:3;
+[2021/05/14 22:25:25]
+people:0, cars:4, motors:5;
+[2021/05/14 22:25:26]
+people:1, cars:3, motors:5;
+[2021/05/14 22:25:26]
+people:0, cars:6, motors:4;
+[2021/05/14 22:25:27]
+people:0, cars:7, motors:5;
+[2021/05/14 22:25:27]
+people:0, cars:5, motors:5;
+[2021/05/14 22:25:28]
+people:1, cars:6, motors:5;
+[2021/05/14 22:25:28]
+people:0, cars:3, motors:3;
+[2021/05/14 22:25:29]
+people:1, cars:4, motors:5;
+[2021/05/14 22:25:29]
+people:0, cars:5, motors:5;
+[2021/05/14 22:25:30]
+people:5, cars:7, motors:1;
+1人闯红灯;
+[2021/05/14 22:25:30]
+people:5, cars:9, motors:1;
+1人闯红灯;
+[2021/05/14 22:25:31]
+people:3, cars:10, motors:2;
+[2021/05/14 22:25:31]
+people:4, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 22:25:32]
+people:6, cars:9, motors:2;
+2人闯红灯;
+[2021/05/14 22:25:32]
+people:4, cars:9, motors:2;
+[2021/05/14 22:25:33]
+people:3, cars:9, motors:1;
+1人闯红灯;
+[2021/05/14 22:25:33]
+people:3, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 22:25:34]
+people:2, cars:12, motors:3;
+1人闯红灯;
+[2021/05/14 22:25:34]
+people:1, cars:11, motors:3;
+1人闯红灯;
+[2021/05/14 22:25:35]
+people:2, cars:11, motors:3;
+[2021/05/14 22:25:35]
+people:2, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 22:25:36]
+people:2, cars:12, motors:3;
+[2021/05/14 22:25:37]
+people:2, cars:10, motors:2;
+[2021/05/14 22:25:37]
+people:4, cars:10, motors:2;
+[2021/05/14 22:25:38]
+people:4, cars:12, motors:2;
+1人闯红灯;
+[2021/05/14 22:25:38]
+people:0, cars:0, motors:0;
+[2021/05/14 22:25:39]
+people:0, cars:0, motors:0;
+[2021/05/14 22:25:39]
+people:1, cars:13, motors:2;
+[2021/05/14 22:25:40]
+people:0, cars:0, motors:0;
+[2021/05/14 22:25:40]
+people:1, cars:12, motors:2;
+1人闯红灯;
+[2021/05/14 22:25:41]
+people:0, cars:0, motors:0;
+[2021/05/14 22:25:41]
+people:1, cars:12, motors:2;
+[2021/05/14 22:25:42]
+people:0, cars:0, motors:0;
+[2021/05/14 22:25:42]
+people:0, cars:0, motors:0;
+[2021/05/14 22:25:43]
+people:3, cars:12, motors:3;
+[2021/05/14 22:25:43]
+people:0, cars:0, motors:0;
+[2021/05/14 22:25:44]
+people:5, cars:10, motors:3;
+1人闯红灯;
+[2021/05/14 22:25:44]
+people:0, cars:0, motors:0;
+[2021/05/14 22:25:45]
+people:1, cars:13, motors:3;
+[2021/05/14 22:25:45]
+people:0, cars:0, motors:0;
+[2021/05/14 22:25:46]
+people:2, cars:10, motors:3;
+[2021/05/14 22:25:46]
+people:2, cars:11, motors:5;
+1人闯红灯;
+[2021/05/14 22:25:47]
+people:1, cars:11, motors:5;
+1人闯红灯;
+[2021/05/14 22:25:47]
+people:1, cars:11, motors:2;
+[2021/05/14 22:25:48]
+people:2, cars:12, motors:2;
+[2021/05/14 22:25:48]
+people:2, cars:13, motors:4;
+[2021/05/14 22:25:49]
+people:4, cars:15, motors:3;
+[2021/05/14 22:25:49]
+people:3, cars:13, motors:2;
+2人闯红灯;
+[2021/05/14 22:25:50]
+people:3, cars:13, motors:1;
+[2021/05/14 22:25:50]
+people:3, cars:11, motors:2;
+[2021/05/14 22:25:51]
+people:2, cars:13, motors:1;
+[2021/05/14 22:25:51]
+people:0, cars:14, motors:1;
+[2021/05/14 22:25:52]
+people:3, cars:11, motors:3;
+[2021/05/14 22:25:52]
+people:0, cars:7, motors:4;
+[2021/05/14 22:25:53]
+people:0, cars:12, motors:1;
+[2021/05/14 22:25:53]
+people:0, cars:11, motors:1;
+[2021/05/14 22:25:54]
+people:1, cars:10, motors:1;
+[2021/05/14 22:25:54]
+people:0, cars:9, motors:4;
+[2021/05/14 22:25:55]
+people:0, cars:9, motors:2;
+[2021/05/14 22:25:55]
+people:0, cars:10, motors:3;
+[2021/05/14 22:25:56]
+people:0, cars:10, motors:4;
+[2021/05/14 22:25:56]
+people:0, cars:10, motors:5;
+[2021/05/14 22:25:57]
+people:1, cars:9, motors:5;
+[2021/05/14 22:25:57]
+people:1, cars:9, motors:3;
+[2021/05/14 22:25:58]
+people:1, cars:8, motors:4;
+[2021/05/14 22:25:58]
+people:1, cars:7, motors:2;
+[2021/05/14 22:25:59]
+people:1, cars:7, motors:2;
+[2021/05/14 22:25:59]
+people:1, cars:7, motors:4;
+[2021/05/14 22:26:00]
+people:1, cars:7, motors:3;
+[2021/05/14 22:26:00]
+people:1, cars:7, motors:3;
+[2021/05/14 22:26:01]
+people:0, cars:8, motors:3;
+[2021/05/14 22:26:01]
+people:0, cars:7, motors:4;
+[2021/05/14 22:26:02]
+people:0, cars:6, motors:3;
+[2021/05/14 22:26:02]
+people:0, cars:5, motors:3;
+[2021/05/14 22:26:03]
+people:0, cars:6, motors:2;
+[2021/05/14 22:26:03]
+people:0, cars:8, motors:4;
+[2021/05/14 22:26:04]
+people:0, cars:6, motors:6;
+[2021/05/14 22:26:04]
+people:1, cars:6, motors:3;
+[2021/05/14 22:26:05]
+people:1, cars:4, motors:4;
+[2021/05/14 22:26:05]
+people:1, cars:5, motors:5;
+[2021/05/14 22:26:06]
+people:2, cars:5, motors:4;
+[2021/05/14 22:26:06]
+people:2, cars:3, motors:4;
+1人闯红灯;
+[2021/05/14 22:26:07]
+people:1, cars:4, motors:2;
+[2021/05/14 22:26:07]
+people:1, cars:4, motors:5;
+[2021/05/14 22:26:08]
+people:1, cars:4, motors:3;
+[2021/05/14 22:26:08]
+people:0, cars:5, motors:5;
+[2021/05/14 22:26:09]
+people:0, cars:4, motors:5;
+[2021/05/14 22:26:09]
+people:1, cars:4, motors:6;
+[2021/05/14 22:26:10]
+people:1, cars:4, motors:5;
+[2021/05/14 22:26:10]
+people:0, cars:6, motors:5;
+[2021/05/14 22:26:11]
+people:0, cars:5, motors:5;
+[2021/05/14 22:26:11]
+people:1, cars:4, motors:3;
+[2021/05/14 22:26:12]
+people:0, cars:3, motors:3;
+[2021/05/14 22:26:12]
+people:1, cars:4, motors:5;
+[2021/05/14 22:26:13]
+people:0, cars:3, motors:5;
+[2021/05/14 22:26:13]
+people:6, cars:8, motors:1;
+1人闯红灯;
+[2021/05/14 22:26:14]
+people:5, cars:9, motors:1;
+1人闯红灯;
+[2021/05/14 22:26:14]
+people:5, cars:9, motors:2;
+[2021/05/14 22:26:15]
+people:4, cars:8, motors:2;
+[2021/05/14 22:26:15]
+people:6, cars:9, motors:2;
+2人闯红灯;
+[2021/05/14 22:26:16]
+people:4, cars:10, motors:2;
+[2021/05/14 22:26:16]
+people:2, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 22:26:17]
+people:4, cars:7, motors:1;
+1人闯红灯;
+[2021/05/14 22:27:30]
+people:0, cars:6, motors:6;
+[2021/05/14 22:27:31]
+people:1, cars:5, motors:3;
+[2021/05/14 22:27:31]
+people:1, cars:4, motors:3;
+[2021/05/14 22:27:32]
+people:1, cars:5, motors:5;
+[2021/05/14 22:27:32]
+people:2, cars:5, motors:4;
+[2021/05/14 22:27:33]
+people:2, cars:3, motors:4;
+1人闯红灯;
+[2021/05/14 22:27:33]
+people:1, cars:5, motors:2;
+[2021/05/14 22:27:34]
+people:0, cars:3, motors:4;
+[2021/05/14 22:27:37]
+people:0, cars:5, motors:5;
+[2021/05/14 22:27:38]
+people:1, cars:5, motors:2;
+[2021/05/14 22:32:23]
+people:0, cars:11, motors:2;
+[2021/05/14 22:32:23]
+people:0, cars:9, motors:4;
+[2021/05/14 22:32:24]
+people:0, cars:8, motors:3;
+[2021/05/14 22:32:24]
+people:0, cars:10, motors:4;
+[2021/05/14 22:32:25]
+people:0, cars:10, motors:5;
+[2021/05/14 22:32:25]
+people:1, cars:10, motors:5;
+[2021/05/14 22:32:26]
+people:2, cars:7, motors:3;
+[2021/05/14 22:32:26]
+people:1, cars:8, motors:4;
+[2021/05/14 22:32:27]
+people:1, cars:8, motors:2;
+[2021/05/14 22:32:27]
+people:1, cars:7, motors:3;
+[2021/05/14 22:32:28]
+people:1, cars:7, motors:5;
+[2021/05/14 22:32:28]
+people:1, cars:7, motors:3;
+[2021/05/14 22:32:29]
+people:0, cars:8, motors:3;
+[2021/05/14 22:32:29]
+people:1, cars:8, motors:3;
+[2021/05/14 22:36:39]
+people:0, cars:0, motors:0;
+[2021/05/14 22:36:39]
+people:0, cars:0, motors:0;
+[2021/05/14 22:36:40]
+people:0, cars:9, motors:3;
+[2021/05/14 22:36:40]
+people:0, cars:11, motors:1;
+[2021/05/14 22:36:41]
+people:1, cars:10, motors:1;
+[2021/05/14 22:36:41]
+people:1, cars:11, motors:1;
+[2021/05/14 22:36:42]
+people:0, cars:10, motors:3;
+[2021/05/14 22:36:42]
+people:0, cars:11, motors:2;
+[2021/05/14 22:36:43]
+people:0, cars:9, motors:3;
+[2021/05/14 22:36:43]
+people:0, cars:10, motors:4;
+[2021/05/14 22:36:44]
+people:0, cars:9, motors:4;
+[2021/05/14 22:38:30]
+people:0, cars:0, motors:0;
+[2021/05/14 22:38:31]
+people:0, cars:0, motors:0;
+[2021/05/14 22:38:31]
+people:0, cars:0, motors:0;
+[2021/05/14 22:38:32]
+people:0, cars:0, motors:0;
+[2021/05/14 22:38:32]
+people:0, cars:0, motors:0;
+[2021/05/14 22:38:33]
+people:0, cars:0, motors:0;
+[2021/05/14 22:38:33]
+people:2, cars:9, motors:3;
+1人闯红灯;
+[2021/05/14 22:38:34]
+people:1, cars:13, motors:2;
+[2021/05/14 22:38:34]
+people:2, cars:11, motors:2;
+[2021/05/14 22:41:42]
+people:1, cars:7, motors:5;
+[2021/05/14 22:41:42]
+people:1, cars:9, motors:2;
+[2021/05/14 22:41:43]
+people:0, cars:11, motors:1;
+[2021/05/14 22:41:43]
+people:1, cars:11, motors:1;
+[2021/05/14 22:41:44]
+people:1, cars:10, motors:1;
+[2021/05/14 22:41:44]
+people:0, cars:10, motors:3;
+[2021/05/14 22:41:45]
+people:0, cars:10, motors:2;
+[2021/05/14 22:41:45]
+people:0, cars:9, motors:4;
+[2021/05/14 22:41:46]
+people:0, cars:10, motors:4;
+[2021/05/14 22:41:46]
+people:0, cars:9, motors:4;
+[2021/05/14 22:44:24]
+people:0, cars:0, motors:0;
+[2021/05/14 22:44:25]
+people:0, cars:0, motors:0;
+[2021/05/14 22:44:25]
+people:0, cars:0, motors:0;
+[2021/05/14 22:44:26]
+people:0, cars:0, motors:0;
+[2021/05/14 22:44:26]
+people:0, cars:0, motors:0;
+[2021/05/14 22:44:27]
+people:3, cars:14, motors:2;
+[2021/05/14 22:44:27]
+people:1, cars:12, motors:1;
+[2021/05/14 22:44:28]
+people:3, cars:14, motors:1;
+1人闯红灯;
+[2021/05/14 22:44:28]
+people:3, cars:11, motors:3;
+[2021/05/14 22:44:29]
+people:2, cars:12, motors:2;
+[2021/05/14 22:46:11]
+people:0, cars:8, motors:3;
+[2021/05/14 22:46:12]
+people:0, cars:4, motors:3;
+[2021/05/14 22:46:12]
+people:1, cars:8, motors:3;
+[2021/05/14 22:46:13]
+people:0, cars:7, motors:4;
+[2021/05/14 22:46:13]
+people:0, cars:6, motors:5;
+[2021/05/14 22:46:14]
+people:1, cars:4, motors:4;
+[2021/05/14 22:46:14]
+people:1, cars:5, motors:5;
+[2021/05/14 22:46:15]
+people:2, cars:5, motors:3;
+[2021/05/14 22:46:15]
+people:2, cars:5, motors:5;
+1人闯红灯;
+[2021/05/14 22:46:16]
+people:2, cars:5, motors:4;
+[2021/05/14 22:46:16]
+people:2, cars:3, motors:2;
+[2021/05/14 22:46:17]
+people:1, cars:3, motors:3;
+[2021/05/14 22:46:17]
+people:1, cars:4, motors:4;
+[2021/05/14 22:46:18]
+people:0, cars:5, motors:5;
+[2021/05/14 22:46:18]
+people:0, cars:4, motors:5;
+[2021/05/14 22:46:19]
+people:1, cars:3, motors:5;
+[2021/05/14 22:46:19]
+people:0, cars:7, motors:4;
+[2021/05/14 22:46:20]
+people:0, cars:8, motors:5;
+[2021/05/14 22:46:20]
+people:1, cars:5, motors:4;
+[2021/05/14 22:46:21]
+people:1, cars:4, motors:5;
+[2021/05/14 22:46:21]
+people:1, cars:3, motors:3;
+[2021/05/14 22:46:22]
+people:1, cars:4, motors:5;
+[2021/05/14 22:46:22]
+people:0, cars:6, motors:5;
+[2021/05/14 22:46:23]
+people:5, cars:9, motors:1;
+1人闯红灯;
+[2021/05/14 22:46:23]
+people:3, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 22:47:59]
+people:0, cars:0, motors:0;
+[2021/05/14 22:47:59]
+people:2, cars:12, motors:2;
+[2021/05/14 22:48:00]
+people:3, cars:14, motors:2;
+2人闯红灯;
+[2021/05/14 22:48:00]
+people:4, cars:15, motors:3;
+[2021/05/14 22:48:01]
+people:4, cars:17, motors:3;
+[2021/05/14 22:48:01]
+people:3, cars:15, motors:2;
+2人闯红灯;
+[2021/05/14 22:48:02]
+people:4, cars:15, motors:2;
+1人闯红灯;
+[2021/05/14 22:48:02]
+people:5, cars:15, motors:2;
+[2021/05/14 22:48:03]
+people:2, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 22:48:03]
+people:3, cars:12, motors:1;
+[2021/05/14 22:48:04]
+people:2, cars:10, motors:1;
+[2021/05/14 22:48:04]
+people:3, cars:11, motors:2;
+[2021/05/14 22:48:05]
+people:2, cars:13, motors:4;
+[2021/05/14 22:48:05]
+people:2, cars:12, motors:1;
+[2021/05/14 22:48:06]
+people:1, cars:14, motors:2;
+[2021/05/14 22:48:06]
+people:1, cars:13, motors:2;
+[2021/05/14 22:48:07]
+people:0, cars:13, motors:2;
+[2021/05/14 22:48:07]
+people:0, cars:13, motors:3;
+[2021/05/14 22:48:08]
+people:1, cars:12, motors:5;
+[2021/05/14 22:48:08]
+people:1, cars:8, motors:2;
+[2021/05/14 22:48:09]
+people:1, cars:8, motors:3;
+[2021/05/14 22:48:09]
+people:0, cars:8, motors:4;
+[2021/05/14 22:48:10]
+people:1, cars:7, motors:5;
+[2021/05/14 22:48:10]
+people:0, cars:8, motors:4;
+[2021/05/14 22:48:11]
+people:0, cars:11, motors:2;
+[2021/05/14 23:04:21]
+people:0, cars:0, motors:0;
+[2021/05/14 23:04:21]
+people:1, cars:5, motors:4;
+[2021/05/14 23:04:22]
+people:1, cars:4, motors:5;
+[2021/05/14 23:04:22]
+people:0, cars:6, motors:5;
+[2021/05/14 23:04:23]
+people:5, cars:10, motors:1;
+[2021/05/14 23:04:23]
+people:4, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 23:04:24]
+people:5, cars:8, motors:2;
+[2021/05/14 23:14:40]
+people:1, cars:13, motors:3;
+[2021/05/14 23:14:41]
+people:2, cars:11, motors:2;
+[2021/05/14 23:14:41]
+people:2, cars:11, motors:1;
+[2021/05/14 23:14:42]
+people:5, cars:12, motors:1;
+1人闯红灯;
+[2021/05/14 23:14:42]
+people:3, cars:11, motors:2;
+[2021/05/14 23:14:43]
+people:2, cars:11, motors:3;
+[2021/05/14 23:14:43]
+people:2, cars:13, motors:1;
+[2021/05/14 23:14:44]
+people:1, cars:14, motors:1;
+[2021/05/14 23:14:44]
+people:1, cars:13, motors:2;
+[2021/05/14 23:14:45]
+people:0, cars:13, motors:2;
+[2021/05/14 23:14:48]
+people:0, cars:7, motors:4;
+[2021/05/14 23:14:48]
+people:0, cars:7, motors:3;
+[2021/05/14 23:14:49]
+people:0, cars:9, motors:3;
+[2021/05/14 23:14:49]
+people:0, cars:10, motors:2;
+[2021/05/14 23:14:50]
+people:0, cars:9, motors:1;
+[2021/05/14 23:14:50]
+people:1, cars:9, motors:1;
+[2021/05/14 23:14:51]
+people:1, cars:10, motors:1;
+[2021/05/14 23:14:51]
+people:0, cars:10, motors:4;
+[2021/05/14 23:14:52]
+people:0, cars:9, motors:3;
+[2021/05/14 23:14:52]
+people:0, cars:9, motors:3;
+[2021/05/14 23:14:53]
+people:0, cars:10, motors:3;
+[2021/05/14 23:14:53]
+people:0, cars:10, motors:4;
+[2021/05/14 23:14:54]
+people:0, cars:10, motors:5;
+[2021/05/14 23:14:54]
+people:1, cars:9, motors:5;
+[2021/05/14 23:14:55]
+people:2, cars:7, motors:3;
+[2021/05/14 23:14:55]
+people:1, cars:8, motors:2;
+[2021/05/14 23:14:56]
+people:1, cars:7, motors:2;
+[2021/05/14 23:15:01]
+people:1, cars:7, motors:3;
+[2021/05/14 23:15:01]
+people:0, cars:6, motors:4;
+[2021/05/14 23:15:02]
+people:1, cars:6, motors:3;
+[2021/05/14 23:15:02]
+people:1, cars:4, motors:3;
+[2021/05/14 23:15:03]
+people:1, cars:5, motors:4;
+[2021/05/14 23:15:03]
+people:2, cars:4, motors:3;
+[2021/05/14 23:15:04]
+people:1, cars:6, motors:4;
+[2021/05/14 23:15:04]
+people:2, cars:5, motors:2;
+[2021/05/14 23:15:05]
+people:0, cars:3, motors:6;
+[2021/05/14 23:15:05]
+people:1, cars:4, motors:3;
+[2021/05/14 23:15:06]
+people:0, cars:5, motors:4;
+[2021/05/14 23:15:06]
+people:1, cars:3, motors:6;
+[2021/05/14 23:15:07]
+people:1, cars:4, motors:5;
+[2021/05/14 23:15:07]
+people:0, cars:5, motors:4;
+[2021/05/14 23:15:08]
+people:0, cars:7, motors:5;
+[2021/05/14 23:15:08]
+people:0, cars:5, motors:4;
+[2021/05/14 23:15:09]
+people:1, cars:3, motors:3;
+[2021/05/14 23:15:09]
+people:1, cars:4, motors:3;
+[2021/05/14 23:15:10]
+people:1, cars:4, motors:5;
+[2021/05/14 23:15:10]
+people:0, cars:4, motors:5;
+[2021/05/14 23:15:11]
+people:5, cars:7, motors:1;
+1人闯红灯;
+[2021/05/14 23:15:11]
+people:4, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 23:15:12]
+people:5, cars:8, motors:2;
+[2021/05/14 23:15:12]
+people:5, cars:8, motors:2;
+1人闯红灯;
+[2021/05/14 23:15:13]
+people:4, cars:9, motors:2;
+1人闯红灯;
+[2021/05/14 23:15:13]
+people:2, cars:8, motors:1;
+[2021/05/14 23:15:14]
+people:3, cars:7, motors:2;
+1人闯红灯;
+[2021/05/14 23:15:14]
+people:6, cars:9, motors:2;
+2人闯红灯;
+[2021/05/14 23:15:15]
+people:3, cars:8, motors:2;
+[2021/05/14 23:15:15]
+people:0, cars:0, motors:0;
+[2021/05/14 23:15:16]
+people:4, cars:9, motors:2;
+[2021/05/14 23:15:16]
+people:0, cars:0, motors:0;
+[2021/05/14 23:15:17]
+people:0, cars:0, motors:0;
+[2021/05/14 23:15:17]
+people:3, cars:10, motors:1;
+[2021/05/14 23:15:18]
+people:0, cars:0, motors:0;
+[2021/05/14 23:15:18]
+people:2, cars:10, motors:1;
+1人闯红灯;
+[2021/05/14 23:15:19]
+people:0, cars:0, motors:0;
+[2021/05/14 23:15:19]
+people:1, cars:10, motors:1;
+[2021/05/14 23:15:20]
+people:4, cars:7, motors:1;
+1人闯红灯;
+[2021/05/14 23:15:20]
+people:2, cars:13, motors:3;
+[2021/05/14 23:15:21]
+people:2, cars:12, motors:3;
+[2021/05/14 23:15:21]
+people:3, cars:10, motors:2;
+[2021/05/14 23:15:22]
+people:2, cars:10, motors:3;
+[2021/05/14 23:15:22]
+people:2, cars:12, motors:4;
+[2021/05/14 23:15:23]
+people:2, cars:14, motors:2;
+[2021/05/14 23:15:23]
+people:4, cars:13, motors:3;
+1人闯红灯;
+[2021/05/14 23:15:24]
+people:4, cars:14, motors:2;
+[2021/05/14 23:15:24]
+people:2, cars:14, motors:1;
+1人闯红灯;
+[2021/05/14 23:15:25]
+people:3, cars:12, motors:1;
+[2021/05/14 23:15:25]
+people:4, cars:11, motors:1;
+1人闯红灯;
+[2021/05/14 23:15:26]
+people:3, cars:13, motors:3;
+[2021/05/14 23:15:26]
+people:3, cars:16, motors:1;
+[2021/05/14 23:15:27]
+people:2, cars:12, motors:1;
+[2021/05/14 23:15:27]
+people:1, cars:14, motors:2;
+[2021/05/14 23:15:28]
+people:1, cars:13, motors:1;
+[2021/05/14 23:15:28]
+people:1, cars:12, motors:3;
+[2021/05/14 23:15:29]
+people:1, cars:10, motors:3;
+[2021/05/14 23:15:29]
+people:3, cars:11, motors:2;
+[2021/05/14 23:15:30]
+people:1, cars:8, motors:3;
+[2021/05/14 23:15:30]
+people:1, cars:7, motors:4;
+[2021/05/14 23:15:31]
+people:0, cars:7, motors:4;
+[2021/05/14 23:15:31]
+people:0, cars:7, motors:3;
+[2021/05/14 23:15:32]
+people:0, cars:9, motors:3;
+[2021/05/14 23:15:32]
+people:0, cars:9, motors:2;
+[2021/05/14 23:15:33]
+people:0, cars:10, motors:2;
+[2021/05/14 23:15:33]
+people:0, cars:8, motors:1;
+[2021/05/14 23:15:34]
+people:1, cars:10, motors:2;
+[2021/05/14 23:15:34]
+people:0, cars:10, motors:2;
+[2021/05/14 23:15:35]
+people:0, cars:11, motors:2;
+[2021/05/14 23:15:35]
+people:0, cars:9, motors:3;
+[2021/05/14 23:15:36]
+people:0, cars:10, motors:3;
+[2021/05/14 23:15:36]
+people:0, cars:10, motors:4;
+[2021/05/14 23:15:37]
+people:0, cars:10, motors:5;
+[2021/05/14 23:15:37]
+people:1, cars:9, motors:5;
+[2021/05/14 23:15:38]
+people:2, cars:7, motors:3;
+[2021/05/14 23:15:38]
+people:1, cars:9, motors:3;
+1人闯红灯;
+[2021/05/14 23:15:39]
+people:1, cars:7, motors:2;
+[2021/05/14 23:15:39]
+people:1, cars:7, motors:3;

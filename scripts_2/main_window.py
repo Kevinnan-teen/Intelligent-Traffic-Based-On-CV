@@ -279,4 +279,4 @@ class Ui_MainWindow(object):
         self.label_8.setText(_translate("MainWindow", "连接服务器"))
         self.lineEdit_2.setPlaceholderText(_translate("MainWindow", "IP"))
         self.lineEdit_3.setPlaceholderText(_translate("MainWindow", "Port"))
-        self.pushButton.setText(_translate("MainWindow", "连接"))
+        self.pushButton.setText(_translate("MainWindow", "connect"))

@@ -17,6 +17,7 @@ import multiprocessing
 import time
 import socket
 import json
+import selectors
 
 
 
@@ -47,8 +48,8 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.function_dict = {'target_detect_is_open':False, 'traffic_light_detect_is_open':False,
 							  'cars_detect_is_open':False, 'people_detect_is_open':False, 
 							  'license_plate_detect_is_open':False}
-
-
+		
+		self.keep_running = True
 
 		self.rtmp_deal_address = ''
 
@@ -74,7 +75,7 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.lineEdit_3.editingFinished.connect(self.portChanged)
 		self.port_address = ''
 
-		# 创建一个关闭事件并设为未触发
+		# 创建一个关闭事件并设为未触发(清除视频线程)
 		self.stopEvent = threading.Event()		
 		self.stopEvent.clear()
 
@@ -92,7 +93,14 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.logOutputThread = threading.Thread(target=self.receiveLog, daemon=True)
 		self.logOutputThread.start()
 
+		# Socket连接状态，如果连接则为True，如果断开则为False, 默认为断开	
+		self.socket_state = False
 		self.pushButton.clicked.connect(self.clickConnect)
+
+		# 创建一个关闭事件并设为未触发(清除socket线程)
+		self.stop_socket_event = threading.Event()
+		self.stop_socket_event.clear()
+		
 
 	
 	def connectBox(self):
@@ -100,9 +108,19 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 
 
 	def clickConnect(self):
-		self.client_tcp_thread = threading.Thread(target=self.connectServer, daemon=True)
-		self.client_tcp_thread.start()
-
+		if not self.socket_state:
+			# 如果是之前是断开状态(close),则按钮显示是`connect`,需要将按钮改为`close`
+			self.pushButton.setText("close")			
+			self.client_tcp_thread = threading.Thread(target=self.connectServer, daemon=True)
+			self.client_tcp_thread.start()
+		else:
+			# 如果之前是连接状态(connect),则按钮显示是`close`,需要将按钮改为`connect`
+			#并且关闭socket
+			print("set socket close")
+			self.pushButton.setText("connect")
+			self.stop_socket_event.set()
+		self.socket_state = not self.socket_state		
+		
 
 	def visualizeData(self):
 		self.sub_win.show()
@@ -130,23 +148,33 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 
 
 	def connectServer(self):
+		self.logFile = open('../log/log_info.txt', 'a')
 		while True:
 			if self.ip_address != '' and self.port_address != '':
 				break
 			time.sleep(0.5)
 
-		ip_port = (self.ip_address, int(self.port_address))
+		self.mysel = selectors.DefaultSelector()
 
-		# ip_port = ('127.0.0.1', 9996)
+		# 连接是一个阻塞操作， 因此在返回之后调用 setblocking() 方法
+		server_address = (self.ip_address, int(self.port_address))
+		print('connecting to {} port {}'.format(*server_address))
+		sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+		sock.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1)
+		sock.connect(server_address)
+		# 设置非阻塞
+		sock.setblocking(False)
 
-		s = socket.socket()     # 创建套接字
+		# 设置选择器去监听 socket 是否可写的和是否可读
+		self.mysel.register(
+		    sock,
+		    selectors.EVENT_READ | selectors.EVENT_WRITE,
+		)
 
-		s.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1)		
 
-		
-		s.connect(ip_port)      # 连接服务器	
 		#load_completed = QMessageBox.information(self, 'message', '成功连接到服务器', QMessageBox.Ok)
-		self.message.start()
+		if self.socket_state:
+			self.message.start()
 		
 		# exit()
 
@@ -157,20 +185,53 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 			time.sleep(0.5)
 			# print(self.function_dict)	    
 			# send_json = json.dumps(self.function_dict)
-			#inp = pickle.dumps()		    
+			#inp = pickle.dumps()		
 
-			s.sendall("server_data".encode())
+			result_json = None
+			result_dict = {}
 
-			# print("waiting recv...")
+			for key, mask in self.mysel.select(timeout=1):
+			    connection = key.fileobj
+			    client_address = connection.getpeername()
+			    # print('client({})'.format(client_address))
 
-			result_json = s.recv(1024).decode()
+			    if mask & selectors.EVENT_READ:
+			        # print('  ready to read')
+			        data = connection.recv(1024)
+			        # print("if duse...")
+			        if data:
+			        	result_json = data.decode()
+			        	result_dict = json.loads(result_json)
+			        	# print(result_dict)
+			            # A readable client socket has data
+			            # print('receive:  ', data)
+			            # bytes_received += len(data)
 
-			result_dict = json.loads(result_json)
+			    if mask & selectors.EVENT_WRITE:
+			        # print('  ready to write')
+			        # out = input('ready to write: ')
+			        # print(out)
+			        # print('  sending {!r}'.format(next_msg))
+			        sock.sendall("server_data".encode())
+			        # bytes_sent += len(next_msg)
 
-			# if(result_dict['data_h']):
-			# 	if(len(result_dict['plate_info_list'])):
-			# 		print(result_dict)
+			        # if out == "exit":
+			        #     print("closing...")
+			        #     self.keep_running = False
+			if result_json == None:
+				continue
 
+			# 如果关闭连接
+			if self.stop_socket_event.is_set():
+				print("socket close")
+				time.sleep(0.1)
+				sock.sendall("exit".encode())
+				self.stop_socket_event.clear()
+				self.logFile.close()
+				self.mysel.unregister(connection)
+				connection.close()
+				self.mysel.close()
+				break
 		
 			# 目标检测
 			if self.target_detect.isChecked():
@@ -215,6 +276,7 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 			else:
 				current_state = 0
 				if self.rtmp_address != '':
+					pass
 					self.rtmp_deal_address = self.rtmp_address
 
 				self.green_light.setVisible(False)
@@ -226,7 +288,7 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 				self.tableWidget.setItem(0,0,QTableWidgetItem(str(0)))
 
 			if origin_state != current_state:
-				self.stopEvent.set()
+				# self.stopEvent.set()
 				origin_state = current_state
 
 
@@ -258,9 +320,10 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 			
 
 			self.log_info = count_info_log + event_info_log + break_info_log
-			
-			
-		s.close()       # 关闭连接
+
+			if self.target_detect.isChecked():
+					self.logQueue.put(self.log_info)
+		print("socket finish")
 
 
 
@@ -306,14 +369,12 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 
 
 
-	def display_video(self):
-		self.logFile = open('../log/log_info.txt', 'a')
+	def display_video(self):		
 		print("display")
 		# "rtmp://kevinnan.org.cn/live/livestream"
 		# "rtmp://kevinnan.org.cn/live/stream"
 
 		while self.rtmp_deal_address[:4] != "rtmp":
-			print("address error")
 			# print(self.rtmp_deal_address[:22])
 			time.sleep(0.5)
 
@@ -329,19 +390,20 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 
 		print("display_2")
 		while self.cap.isOpened():	
+			#print("duse...1")
 			ret, frame = self.cap.read()
+			#print("duse....2")
 			time.sleep(self.FPS)
 			if ret:
 				
 				#frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
 				# plate_frame = frame.copy()
 				img = frame.copy()
-				print(img.shape)
+				# print(img.shape)
 				#output = None 
 				#orign_img = None		
-				
-				if self.target_detect.isChecked():
-					self.logQueue.put(self.log_info)					
+
+				#print("duse...3")					
 		
 				img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
 				img = cv2.resize(img, (1080, 540)) 
@@ -350,6 +412,7 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 				# cv2.waitKey(self.FPS_MS)
 				# frames += 1 
 				#print(frames)
+				#print("duse...4")
 
 				if self.stopEvent.is_set():
 					self.stopEvent.clear()
@@ -359,13 +422,14 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 					# self.tableWidget.setItem(0,1,QTableWidgetItem(str(0)))
 					# self.tableWidget.setItem(0,2,QTableWidgetItem(str(0)))
 					break
+				#print("duse....5")
 			else:
 				self.video_plate.clear()
 				break
 		try:
 			self.openFIleButton.setEnabled(True)
 			self.cap.release()
-			self.logFile.close()
+			#self.logFile.close()
 			self.green_light.setVisible(False)
 			self.red_light.setVisible(False)
 			self.break_traffic_warning.setVisible(False)
