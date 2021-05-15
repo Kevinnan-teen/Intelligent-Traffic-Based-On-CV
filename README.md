@@ -32,7 +32,7 @@
 
 - GPU服务器
 
-我直接在本地运行服务端脚本来替代GPU服务器．如果是要部署的话，只需要修改服务器脚本`server.py`中的`IP`和`Port`即可．
+我直接在本地运行服务端脚本来替代GPU服务器．如果是要部署的话，只需要修改服务器脚本`server_selector.py`中的`IP`和`Port`即可．
 
 - 本地客户端
 
@@ -43,7 +43,7 @@
 为了方便演示，我使用`ffmpeg`把本地的交通路口监控视频推流到我在阿里云服务器搭建的的流媒体服务器．**这个步骤用来代替之前提到的网络摄像机的推流过程**．
 
 ```shell
-ffmpeg -re -stream_loop -1 -i traffic.flv -c copy -f flv rtmp://127.0.0.1/live/livestream
+ffmpeg -re -stream_loop -1 -i traffic.flv -c copy -f flv rtmp://101.132.236.124/live/livestream
 ```
 
 上面的命令是对视频`traffic.flv`进行循环推流，推流到你的SRS流媒体服务器上．该rtmp流地址可根据你的情况修改．
@@ -88,39 +88,44 @@ cd scripts_2
 ```
 
 ```shell
-python server.py
+python server_selector.py
 ```
 
 ### 3.4 运行客户端程序
 
 ```shell
-python client_ui.py
+python client_selector.py
 ```
 
 ## 4、项目演示
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+演示视频地址 : [https://lucasnan.gitee.io/info/video.html](https://lucasnan.gitee.io/info/video.html)
 
-- 待补充...
+![](resources/demo.png)
 
 ## 5、代码结构说明
 
 1. **scripts_2** : python脚本
-   - server.py : 服务端脚本
-   - client_ui.py main_window.py sub_window.py : 客户端PyQt5界面
+   - server_selector.py : 服务端脚本
+   - client_selector.py main_window.py sub_window.py : 客户端PyQt5界面
    - bbox.py  darknet.py video_demo.py util.py : YOLO相关代码
    - detect.py  : 颜色检测
    - plateRecognition.py  preprocess.py HyperLPRLite.py : 车牌检测相关代码
-2. **ui** : 程序UI界面
-   - Core.ui : 使用`Qt Designer`设计的界面ui文件
+2. demo : 测试脚本
+
+   - selectors_echo_client.py : selectors客户端
+   - selectors_echo_server.py : selectors服务端
+3. **ui** : 使用`Qt Designer`设计的界面ui文件
+   - core_v1.ui : 1.0版本界面
+   - core_u2.ui : 2.0版本界面
    - core.py : 使用命令`pyuic5 -o core.py Core.ui`将Core.ui文件转为python脚本
-3. **yolov3** : YOLO模型配置文件
+4. **yolov3** : YOLO模型配置文件
    - cfg : YOLO网络模型
    - data : YOLO识别类型
    - weights : YOLO模型权重
-4. **PlateRecognition** : 中文车牌识别HyperLPR项目配置文件
-5. **videos** : 提供的道路测试视频
-6. **log** : 程序运行过程中保存的日志 
+5. **PlateRecognition** : 中文车牌识别HyperLPR项目配置文件
+6. **videos** : 提供的道路测试视频
+7. **log** : 程序运行过程中保存的日志 
 
 ## 6、各模块功能详细说明
 
@@ -189,4 +194,5 @@ python client_ui.py
 ## 7、参考资料
 
 [1][A PyTorch implementation of the YOLO v3 object detection algorithm](https://github.com/ayooshkathuria/pytorch-yolo-v3.git) 
+
 [2][基于深度学习高性能中文车牌识别HyperLPR](https://github.com/zeusees/HyperLPR.git) 
