@@ -205,6 +205,8 @@ python client_selector.py
 
 ## 7、参考资料
 
-[1][A PyTorch implementation of the YOLO v3 object detection algorithm](https://github.com/ayooshkathuria/pytorch-yolo-v3.git) 
+[1] [A PyTorch implementation of the YOLO v3 object detection algorithm](https://github.com/ayooshkathuria/pytorch-yolo-v3.git) 
 
-[2][基于深度学习高性能中文车牌识别HyperLPR](https://github.com/zeusees/HyperLPR.git) 
+[2] [SRS 实时视频服务器](https://github.com/ossrs/srs)
+
+[3] [基于深度学习高性能中文车牌识别HyperLPR](https://github.com/zeusees/HyperLPR.git) 
