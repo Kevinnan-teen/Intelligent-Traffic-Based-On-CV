@@ -34,7 +34,13 @@
 
 > 这里没有采用将分析结果发送到客户端，然后在客户端对目标进行标注的原因主要是考虑到分析结果和视频流刷新的同步问题。直接把处理后的视频推流是一个简单粗暴但行之有效的方法。
 
-## 2、环境依赖
+## 2、项目演示
+
+演示视频地址 : [https://lucasnan.gitee.io/info/video.html](https://lucasnan.gitee.io/info/video.html)
+
+![](resources/demo.png)
+
+## 3、环境依赖
 
 - SRS流媒体服务器
 
@@ -48,9 +54,9 @@
 
 - 本地客户端
 
-## 3、部署步骤
+## 4、部署步骤
 
-### 3.1 向SRS流媒体服务器推流
+### 4.1 向SRS流媒体服务器推流
 
 为了方便演示，我使用`ffmpeg`把本地的交通路口监控视频推流到我在阿里云服务器搭建的的流媒体服务器．**这个步骤用来代替之前提到的网络摄像机的推流过程**．
 
@@ -60,7 +66,7 @@ ffmpeg -re -stream_loop -1 -i traffic.flv -c copy -f flv rtmp://101.132.236.124/
 
 上面的命令是对视频`traffic.flv`进行循环推流，推流到你的SRS流媒体服务器上．该rtmp流地址可根据你的情况修改．
 
-### 3.2 安装环境依赖
+### 4.2 安装环境依赖
 
 >  Note: 我的测试环境: ubuntu16.04STL + Python3.5
 
@@ -91,7 +97,7 @@ pip install -r requirements.txt
 	- [百度网盘下载链接](https://pan.baidu.com/s/1CVgvP4hQQvDNbKmXhmkxqw) 　
 下载完成后将weights文件放在 **yolov3/weights** 目录下
 
-### 3.3 运行服务器程序（本地）
+### 4.3 运行服务器程序（本地）
 
 运行服务器脚本, 2.0版本的代码在`scripts_2`目录下．
 
@@ -103,17 +109,11 @@ cd scripts_2
 python server_selector.py
 ```
 
-### 3.4 运行客户端程序
+### 4.4 运行客户端程序
 
 ```shell
 python client_selector.py
 ```
-
-## 4、项目演示
-
-演示视频地址 : [https://lucasnan.gitee.io/info/video.html](https://lucasnan.gitee.io/info/video.html)
-
-![](resources/demo.png)
 
 ## 5、代码结构说明
 
