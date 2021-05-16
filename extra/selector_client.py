@@ -1,6 +1,5 @@
 # -*- coding:utf-8 -*-
-from main_window import Ui_MainWindow
-from sub_window import App
+from simple import Ui_MainWindow
 
 import sys
 sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
@@ -21,6 +20,9 @@ import selectors
 
 
 class message(QThread):
+	'''
+	Socket连接成功提示Message
+	'''
     signal = pyqtSignal()
     def __init__(self, Window):
         super(message, self).__init__()
@@ -43,12 +45,6 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.setupUi(self)
 		self.cap = None
 		# 设置窗口位于屏幕中心
-
-		self.function_dict = {'target_detect_is_open':False, 'traffic_light_detect_is_open':False,
-							  'cars_detect_is_open':False, 'people_detect_is_open':False, 
-							  'license_plate_detect_is_open':False}
-		
-		self.keep_running = True
 
 		self.rtmp_deal_address = ''
 
@@ -76,16 +72,7 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 
 		# 创建一个关闭事件并设为未触发(清除视频线程)
 		self.stopEvent = threading.Event()		
-		self.stopEvent.clear()
-
-		# 子窗口和父窗口通信
-		self.sub_win = App()
-		# 可视化数据
-		self.lookVisualDataButton.clicked.connect(self.visualizeData)
-		self.sub_data = ''
-		self.subWinSignal.connect(lambda log2: self.sub_win.getData(log2))
-		self.subWinThread = threading.Thread(target=self.subWinFunc, daemon=True)
-		self.subWinThread.start()		
+		self.stopEvent.clear()		
 
 		# 加载日志
 		self.receiveLogSignal.connect(lambda log: self.logOutput(log))
@@ -120,15 +107,6 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 			self.stop_socket_event.set()
 		self.socket_state = not self.socket_state		
 		
-
-	def visualizeData(self):
-		self.sub_win.show()
-
-	def subWinFunc(self):
-		while True:
-			time.sleep(0.2)			
-			if self.sub_data != '':
-				self.subWinSignal.emit(self.sub_data)
 
 	def rtmpTextchanged(self):
 		self.rtmp_address = str(self.lineEdit.text())
@@ -181,10 +159,7 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 		current_state = 0
 
 		while True:
-			time.sleep(0.5)
-			# print(self.function_dict)	    
-			# send_json = json.dumps(self.function_dict)
-			#inp = pickle.dumps()		
+			time.sleep(0.5)	
 
 			result_json = None
 			result_dict = {}
@@ -192,31 +167,16 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 			for key, mask in self.mysel.select(timeout=1):
 			    connection = key.fileobj
 			    client_address = connection.getpeername()
-			    # print('client({})'.format(client_address))
 
 			    if mask & selectors.EVENT_READ:
-			        # print('  ready to read')
 			        data = connection.recv(1024)
-			        # print("if duse...")
 			        if data:
 			        	result_json = data.decode()
 			        	result_dict = json.loads(result_json)
-			        	# print(result_dict)
-			            # A readable client socket has data
-			            # print('receive:  ', data)
-			            # bytes_received += len(data)
 
 			    if mask & selectors.EVENT_WRITE:
-			        # print('  ready to write')
-			        # out = input('ready to write: ')
-			        # print(out)
-			        # print('  sending {!r}'.format(next_msg))
 			        sock.sendall("server_data".encode())
-			        # bytes_sent += len(next_msg)
 
-			        # if out == "exit":
-			        #     print("closing...")
-			        #     self.keep_running = False
 			if result_json == None:
 				continue
 
@@ -231,102 +191,16 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 				connection.close()
 				self.mysel.close()
 				break
-		
-			# 目标检测
-			if self.target_detect.isChecked():
-				current_state = 1
-				self.rtmp_deal_address = "rtmp://101.132.236.124/live/stream"
-
-				# 交通灯检测
-				if self.traffic_light_detect.isChecked():
-					if result_dict['traffic_light_color'] == "green":
-						self.red_light.setVisible(False)
-						self.green_light.setVisible(True)
-					elif result_dict['traffic_light_color'] == "red":
-						self.green_light.setVisible(False)
-						self.red_light.setVisible(True)
-					else:
-						self.green_light.setVisible(False)
-						self.red_light.setVisible(False)
-				else:
-					self.green_light.setVisible(False)
-					self.red_light.setVisible(False)
-				# 车流量检测
-				if self.cars_detect.isChecked():	
-					# print("cars_detect")	
-					self.tableWidget.setItem(0,1,QTableWidgetItem(str(result_dict['cars_num'])))
-					self.tableWidget.setItem(0,2,QTableWidgetItem(str(result_dict['motors_num'])))
-				else:
-					self.tableWidget.setItem(0,1,QTableWidgetItem(str(0)))
-					self.tableWidget.setItem(0,2,QTableWidgetItem(str(0)))
-				# 人流量检测
-				if self.people_detect.isChecked():	
-					# print("people_detect")			
-					self.tableWidget.setItem(0,0,QTableWidgetItem(str(result_dict['people_num'])))
-				else:
-					self.tableWidget.setItem(0,0,QTableWidgetItem(str(0)))
-				# 车牌检测
-				if self.license_plate_detect.isChecked():
-					pass
-				else:
-					self.license_graph.clear()
-					self.license_result.clear()
-
-			else:
-				current_state = 0
-				if self.rtmp_address != '':
-					pass
-					self.rtmp_deal_address = self.rtmp_address
-
-				self.green_light.setVisible(False)
-				self.red_light.setVisible(False)
-				self.break_traffic_label.setVisible(False)
-				self.break_traffic_warning.setVisible(False)
-				self.tableWidget.setItem(0,1,QTableWidgetItem(str(0)))
-				self.tableWidget.setItem(0,2,QTableWidgetItem(str(0)))
-				self.tableWidget.setItem(0,0,QTableWidgetItem(str(0)))
-
-			if origin_state != current_state:
-				# self.stopEvent.set()
-				origin_state = current_state
-
-
-			# 系统日志
-			count_info_log = ''
-			event_info_log = ''
-			break_info_log = ''
-
-
-			self.sub_data = str(result_dict['people_num']) + ' ' + str(result_dict['cars_num']) + \
-						    ' ' + str(result_dict['motors_num'])
-
-			count_info_log = "people:" + str(result_dict['people_num']) + ", cars:" + str(result_dict['cars_num']) + \
-										", motors:" + str(result_dict['motors_num']) + ";\n"
-
-			plate_info_list = result_dict['plate_info_list']
-
-			if len(plate_info_list):
-				event_info_log = "车牌信息：" + plate_info_list[0][0] + \
-								 "识别准确率:" + str(plate_info_list[0][1])[:5] + '\n'
-			if(result_dict['pedestrians_num']):
-				break_info_log = str(result_dict['pedestrians_num']) + "人闯红灯;\n"
-				self.break_traffic_warning.setVisible(True)
-				self.break_traffic_label.setVisible(True)
-				self.break_traffic_label.setText(break_info_log)
-			else:
-				self.break_traffic_label.setVisible(False)
-				self.break_traffic_warning.setVisible(False)
 			
 
-			self.log_info = count_info_log + event_info_log + break_info_log
-
-			if self.target_detect.isChecked():
-					self.logQueue.put(self.log_info)
+			self.log_info = "log"
+			self.logQueue.put(self.log_info)
 		print("socket finish")
 
 
 
 	def logOutput(self, log):
+		print("打印日志")
 		# 获取当前系统时间
 		time = datetime.now().strftime('[%Y/%m/%d %H:%M:%S]')
 		log = time + '\n' + log 
@@ -341,6 +215,7 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 		while True:
 			data = self.logQueue.get()
 			if data:
+				print(data)
 				self.receiveLogSignal.emit(data)
 			else:
 				continue
@@ -369,9 +244,7 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 
 
 	def display_video(self):		
-		print("display")
-		# "rtmp://kevinnan.org.cn/live/livestream"
-		# "rtmp://kevinnan.org.cn/live/stream"
+		print("display")		
 
 		while self.rtmp_deal_address[:4] != "rtmp":
 			# print(self.rtmp_deal_address[:22])
@@ -389,62 +262,35 @@ class Main(QtWidgets.QMainWindow, Ui_MainWindow):
 
 		print("display_2")
 		while self.cap.isOpened():	
-			#print("duse...1")
 			ret, frame = self.cap.read()
-			#print("duse....2")
 			time.sleep(self.FPS)
 			if ret:
 				
-				#frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
-				# plate_frame = frame.copy()
 				img = frame.copy()
-				# print(img.shape)
-				#output = None 
-				#orign_img = None		
-
-				#print("duse...3")					
-		
+					
 				img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
 				img = cv2.resize(img, (1080, 540)) 
 				img = QImage(img.data, img.shape[1], img.shape[0], QImage.Format_RGB888)
 				self.video_plate.setPixmap(QPixmap.fromImage(img))
-				# cv2.waitKey(self.FPS_MS)
-				# frames += 1 
-				#print(frames)
-				#print("duse...4")
+
 
 				if self.stopEvent.is_set():
 					self.stopEvent.clear()
-					#self.textEdit.clear()
 					self.video_plate.clear()
-					# self.tableWidget.setItem(0,0,QTableWidgetItem(str(0)))
-					# self.tableWidget.setItem(0,1,QTableWidgetItem(str(0)))
-					# self.tableWidget.setItem(0,2,QTableWidgetItem(str(0)))
 					break
-				#print("duse....5")
 			else:
 				self.video_plate.clear()
 				break
 		try:
 			self.openFIleButton.setEnabled(True)
 			self.cap.release()
-			#self.logFile.close()
-			self.green_light.setVisible(False)
-			self.red_light.setVisible(False)
-			self.break_traffic_warning.setVisible(False)
-			self.break_traffic_label.setVisible(False)
-			self.license_graph.clear()
-			self.license_result.clear()
 		except:
 			print("资源释放错误")
 		
-
 
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     window = Main()
     window.show()
-
-
     sys.exit(app.exec_())

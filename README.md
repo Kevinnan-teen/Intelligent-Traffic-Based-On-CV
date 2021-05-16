@@ -1,8 +1,20 @@
 # 基于计算机视觉的交通路口智能监控系统
 
 > 交通路口智能监控系统2.0版本更新．2.0版本在之前版本的基础上做了一定改进，尤其是对项目的架构做了大幅度的调整．之后此项目默认分支为version2.0，如果要查看之前的版本可以在`Switch branches`菜单中选择master分支．
-
-> To Do : clone 分支代码; 或 clone整个项目,然后在本地切换分支
+>
+> [旧版README](./README_v1.md)
+>
+> 如何clone本项目
+>
+> - 只clone version2.0分支代码
+>
+>  `git clone -b version2.0 https://github.com/Kevinnan-teen/Intelligent-Traffic-Based-On-CV.git`
+>
+> - clone整个项目,然后在本地切换分支
+>
+> `git clone https://github.com/Kevinnan-teen/Intelligent-Traffic-Based-On-CV.git`
+>
+> `git checkout version2.0`
 
 ## 1、项目介绍
 

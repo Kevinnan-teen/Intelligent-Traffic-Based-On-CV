@@ -75,9 +75,9 @@ class App(QWidget):
         ax = self.figure.add_axes([0.1, 0.1, 0.8, 0.8])
 
         ax.clear()
-        ax.plot(self.people_num_list, label="people_num", linewidth=2, color="g")
-        ax.plot(self.cars_num_list, label="cars_num", color="b")
-        ax.plot(self.motors_num_list, label="motors_num", color="r")
+        ax.plot(self.people_num_list, label="people_num", linestyle=':', color="g")
+        ax.plot(self.cars_num_list, label="cars_num", color="b", linestyle='--')
+        ax.plot(self.motors_num_list, label="motors_num", color="r", linestyle='-.')
 
         self.figure.legend()
         self.canvas.draw()
