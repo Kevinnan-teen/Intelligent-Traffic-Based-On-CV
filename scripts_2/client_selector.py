@@ -3,7 +3,7 @@ from main_window import Ui_MainWindow
 from sub_window import App
 
 import sys
-sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
+#sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
 import cv2
 
 from datetime import datetime
